@@ -19,7 +19,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-5 offset-md-1">
+        <div class="col-md-5 offset-md-1" style="padding-top:-10px">
           <h4><b>Se você tiver dúvidas sobre como ingressar no programa e precisar falar conosco</b></h4>
           <i class="fa fa-phone m-3" style="font-size:28px; color: #2DBAD1"><span class="ml-3" style="color: #2DBAD1">0800 333 1234</span></i>
           <p><b>Apoio telefônico ao programa Longevidade</b></p>
