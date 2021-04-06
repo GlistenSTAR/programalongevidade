@@ -14,7 +14,7 @@
                 Avenida Dr. Chucri Zaidan, 1240<br>
                 Morumbi Golden Tower Building - Tower A<br>
                 24th floor - CEP 04710-230<br>
-                <!-- Santo Amaro - São Paulo / SP -->
+                Santo Amaro - São Paulo / SP
               </span>
             </div>
           </div>
@@ -25,7 +25,7 @@
           <p><b>Apoio telefônico ao programa Longevidade</b></p>
         </div>
       </div>
-      <div class="row second">
+      <div class="row second m-4">
         <p align="center">
           <a href="http://www.torrent.com.br" title="Visite o site da Torrent do Brasil"><span>Site da Torrent do Brasil </span></a><span class="color"> | </span>
           <a href="https://www.facebook.com/torrentbrasil/" title="Viste nossa página no Facebook"><span> Siga a Torrent no Facebook </span></a><span class="color"> | </span>
@@ -33,8 +33,15 @@
           <a href="/fale_conosco"><span>Fale conosco</span></a>
         </p>
       </div>
-      <div class="">
-        <h1>asdf</h1>
+      <div class="row m-3">
+        <div class="col-md-5">
+          <h5>Torrent do Brasil © - Todos os direitos reservados</h5>
+          <span>Os conteúdos publicados nesse site não podem ser reproduzidos sem a prévia autorização da Torrent do Brasil.</span>
+        </div>
+        <div class="col-md-6" align="right" style="margin-top:auto; margin-bottom:auto">
+          <img class="block" alt="" width="227" height="49" src="images/home_logotipo_longevidade_rodape.png?crc=3807056879" data-nsfw-filter-status="sfw" style="visibility: visible;" id="u212_img">
+          <img class="block" alt="" width="120" height="56" src="images/home_logotipo_sat.png?crc=267870490" data-nsfw-filter-status="sfw" style="visibility: visible;" id="u222_img">
+        </div>
       </div>
     </div>
   </div>

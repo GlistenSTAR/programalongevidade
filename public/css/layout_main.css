@@ -111,7 +111,7 @@
     opacity: 1;
     background: #F1EEE7 url(../images/home_longevidade_ajuste_rodape.jpg?crc=3970017845) repeat-x left top;
   }
-  .footer h4, .footer span, .footer p{
+  .footer h4, .footer span, .footer p, .footer h5{
     color: #233164;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
