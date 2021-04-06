@@ -124,7 +124,7 @@ class CommonController extends Controller
 
     public function indexAction(Request $poRequest)
     {
-        return view('test_layout');
+        return view('index_change');
         // $this->checkIfAuthenticated();
         // $this->insertRequestToStats($poRequest, RouteIdsEnum::indexAction);
         // if (!empty($this->logadoView)) {
