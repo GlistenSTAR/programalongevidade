@@ -14,7 +14,7 @@
                 Avenida Dr. Chucri Zaidan, 1240<br>
                 Morumbi Golden Tower Building - Tower A<br>
                 24th floor - CEP 04710-230<br>
-                Santo Amaro - São Paulo / SP
+                <!-- Santo Amaro - São Paulo / SP -->
               </span>
             </div>
           </div>
@@ -25,7 +25,6 @@
           <p><b>Apoio telefônico ao programa Longevidade</b></p>
         </div>
       </div>
-    
       <div class="row second">
         <p align="center">
           <a href="http://www.torrent.com.br" title="Visite o site da Torrent do Brasil"><span>Site da Torrent do Brasil </span></a><span class="color"> | </span>
