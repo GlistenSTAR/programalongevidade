@@ -1,0 +1,157 @@
+  h1, span, li, button {
+    font-family: 'Questrial', sans-serif;
+  };
+  
+  #accordionu2299-bw {
+   z-index: 800;
+  }
+
+  .header{
+    background-color: #319BAC;
+    z-index: 168;
+    min-height: 83px;
+    padding-bottom: 13px;
+  }
+  
+  .header #pu8153 {
+    z-index: 168;
+    padding-bottom: 0px;
+    margin-right: -10000px;
+    width: 100%;
+  }
+  .header #u8153-bw {
+    z-index: 168;
+    min-height: 83px;
+    left: 0px;
+    margin-left: 0px;
+  }
+  
+  .Button {
+    cursor: pointer !important;
+  }
+
+  .header #u8153_align_to_page, #u94_align_to_page {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .header_second .col-md-4{
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .header button{
+    background: linear-gradient(to bottom,#297ED8 14%,#0045D0 );
+  }
+  
+  .header button:hover{
+    background: linear-gradient(to bottom,#3687dd 14%,#1f5bd3 );
+  }
+
+  .header ul li{
+    padding-top:2px;
+    padding-bottom:2px
+  }
+
+  .header .header_third_part a{
+    color:white;
+    text-decoration: none;
+  }
+
+  .menu_background{
+    background: transparent url(../images/home_longevidade_menu_superior.png?crc=450813036) repeat-x left top;
+    position: absolute;
+    top:0;
+    left: 0;
+    height:150px;
+    width: 100%;
+  }
+  .menus .container{
+    margin-top: -10px;
+    flex-wrap: nowrap!important;
+  }
+  .menus .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .menus .navbar-brand{
+    height: 88px;
+    padding-left: 0px;
+  }
+  .menus .navbar-nav {
+    flex-direction:row;
+  }
+  .menus .navbar-nav li{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding:10px;
+  }
+  .menus .navbar-nav li:hover{
+    background-color: #319BAC;
+    color:white!important;
+  }
+  .menus .navbar-nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#233164!important;
+  }
+  .menus .navbar-nav li a:hover{
+    color: white!important;
+  }
+
+
+  .footer .footer_background{
+    opacity: 1;
+    height: 5px;
+    background: transparent url(../images/pontilhado_bg_azul.png?crc=345125544) repeat-x left top;
+  }
+
+  .footer .contact_us{
+    opacity: 1;
+    background: #F1EEE7 url(../images/home_longevidade_ajuste_rodape.jpg?crc=3970017845) repeat-x left top;
+  }
+  .footer h4, .footer span, .footer p{
+    color: #233164;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+
+  .footer .contact_us .container .first{
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  .footer .contact_us .container .second{
+    text-align: center;
+    justify-content: center;
+  }
+  .footer .contact_us .container .second a{
+    text-decoration: none;
+  }
+  .footer .contact_us .container .second span{
+    margin:10px
+  }
+  .footer .contact_us .container .second span.color{
+    color:#2DBAD1
+  }
+  
+
+  @media only screen and (max-width: 600px){
+    .header{
+      display: none;
+    }
+    .menus .navbar .container{
+      justify-content:flex-start;
+    }
+    .menus .navbar-brand img{
+      width: 230px;
+      height: 55px;
+      margin-left: 10px;
+    }
+    .menus .container{
+      flex-wrap: wrap!important;
+    }
+    .menus .navbar-nav li{
+      display: block;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,47 @@
+<IfModule mod_ssl.c>
+        <VirtualHost _default_:443>
+
+                ServerName programalongevidade.com.br
+
+                #   SSL Engine Switch:
+                #   Enable/Disable SSL for this virtual host.
+                SSLEngine on
+
+                #   A self-signed (snakeoil) certificate can be created by installing
+                #   the ssl-cert package. See
+                #   /usr/share/doc/apache2/README.Debian.gz for more info.
+                #   If both key and certificate are stored in the same file, only the
+                #   SSLCertificateFile directive is needed.
+                SSLCertificateFile      /root/ssh_cert/2019_cert/programalongevidade.crt
+                SSLCertificateKeyFile /root/ssh_cert/2019_cert/server.key
+
+                #SSLCertificateFile     /root/ssh_cert/2019_cert/domain.cer
+                #SSLCertificateKeyFile /root/ssh_cert/2019_cert/domain.key
+                #   Server Certificate Chain:
+                #   Point SSLCertificateChainFile at a file containing the
+                #   concatenation of PEM encoded CA certificates which form the
+                #   certificate chain for the server certificate. Alternatively
+                #   the referenced file can be the same as SSLCertificateFile
+                #   when the CA certificates are directly appended to the server
+                #   certificate for convinience.
+                #SSLCertificateChainFile /etc/apache2/ssl.crt/server-ca.crt
+
+                ServerAdmin thiago.tintorimaia@gmail.com
+                DocumentRoot /var/www/html/public
+
+                <Directory "/var/www/html/public">
+                        Order allow,deny
+                        Allow from all
+                        Options Indexes FollowSymlinks MultiViews
+                        AllowOverride All
+                        Require all granted
+                        SSLOptions +StdEnvVars
+                </Directory>
+
+                ErrorLog ${APACHE_LOG_DIR}/tool_error_ssl.log
+                CustomLog ${APACHE_LOG_DIR}/tool_access_ssl.log combined
+
+        </VirtualHost>
+</IfModule>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
