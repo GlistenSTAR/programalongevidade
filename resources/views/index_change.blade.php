@@ -3,4 +3,8 @@
 @section('content')
   <h1 class="m-5">This contents</h1>
   <h1 class="m-5">This contents</h1>
+  <h1 class="m-5">This contents</h1>
+  <h1 class="m-5">This contents</h1>
+  <h1 class="m-5">This contents</h1>
+  <h1 class="m-5">This contents</h1>
 @endsection

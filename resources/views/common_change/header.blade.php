@@ -1,7 +1,7 @@
 <script src="js/field_formater.js"></script>
 <script src="/js/jquery.mask.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="/js/form_control.js"></script>
-<div class="header">
+<div class="header" style="position: fixed; width:100%">
     <div class="container">
         <div class="row pt-3" style="color:white; font-size:12px;padding-right:0px">
            <div class="col-md-5" style="padding-right:0">
