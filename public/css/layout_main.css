@@ -137,6 +137,32 @@
   .footer .contact_us .container .second span.color{
     color:#2DBAD1
   }
+
+
+  .main_page .carousel img{
+    width:100%;
+    height:467px!important;
+    background-size:cover ;
+  }
+  .main_page .carousel-indicators{
+    right: 0;
+    margin-left: 0;
+  }
+  .main_page .carousel-indicators li{
+    border: 1px solid grey;
+    border-radius: 0px;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    background-color:#DEDEDE;
+  }
+  .main_page .carousel-indicators li:hover{
+    background-color: #319BAC!important;
+    opacity: 1;
+  }
+  .main_page .carousel-indicators li.active{
+    background-color: #81CAD5;
+  }
   
 
   @media only screen and (max-width: 600px){

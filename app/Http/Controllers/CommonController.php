@@ -124,13 +124,13 @@ class CommonController extends Controller
 
     public function indexAction(Request $poRequest)
     {
-        return view('index_change');
-        // $this->checkIfAuthenticated();
-        // $this->insertRequestToStats($poRequest, RouteIdsEnum::indexAction);
-        // if (!empty($this->logadoView)) {
-        //     return view('painel_pessoal')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(),]);
-        // }
-        // return view('index' . $this->logadoView)->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(),]);
+        // return view('index_change');
+        $this->checkIfAuthenticated();
+        $this->insertRequestToStats($poRequest, RouteIdsEnum::indexAction);
+        if (!empty($this->logadoView)) {
+            return view('painel_pessoal')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(),]);
+        }
+        return view('index_change' . $this->logadoView)->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(),]);
     }
 
     public function loginAction(Request $poRequest)
