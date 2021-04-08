@@ -66,6 +66,10 @@
     left: 0;
     height:150px;
     width: 100%;
+    margin-top:100px;
+  }
+  .menus{
+    padding-top:100px;
   }
   .menus .container{
     margin-top: -10px;
@@ -153,5 +157,8 @@
     .menus .navbar-nav li{
       display: block;
       width: 100%;
+    }
+    .menus{
+      padding-top:0px;
     }
   }
