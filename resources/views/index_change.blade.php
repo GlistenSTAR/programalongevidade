@@ -44,15 +44,52 @@
           <div class="col-md-4" style="margin-top:auto; margin-bottom:auto">
             <input type="email" class="form-control input-lg" placeholder="Vamos começar com o seu e-mail?">
           </div>
-          <div class="col-md-4" style="margin-top:auto; margin-bottom:auto">
-            <button class="btn btn-lg btn-primary">CADASTRAR AGORA</button>
+          <div class="col-md-3" style="margin-top:auto; margin-bottom:auto">
+            <button class="btn btn-primary form-control form-control-lg">CADASTRAR AGORA</button>
           </div>
         </div>
-        <div align="center" style="margin-bottom:80px">
+        <div align="center" style="margin-bottom:28px">
           <h4><a style="color:white">Já sou cadastrado. Como faço para acessar meus dados?</a></h4>
         </div>
       </div>
       <div class="dot_line"></div>
+    </div>
+  </div>
+  <div class="find_dragstore" align="center">
+    <h1>Que tal achar uma farmácia aí perto de você?</h1>
+    <p>Localize a sua cidade pelos seletores abaixo</p>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-2" align="right">
+          <img class="block" id="u603_img" alt="" width="86" height="82" data-muse-src="images/home_icone_localizar_farmacia.png?crc=4214829112" src="images/home_icone_localizar_farmacia.png?crc=4214829112" data-nsfw-filter-status="sfw" style="visibility: visible;">
+        </div>
+        <div class="col-md-7 form-group" align="left" style="margin-top:auto; margin-bottom:auto">
+          <select class="uf" id="ufID">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+          <select class="cidade" id="cidadeId">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+          <select class="bairro" id="bairroId">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+        <div class="col-md-3" align="left" style="margin-top:auto; margin-bottom:auto">
+          <button class="btn btn-primary form-control form-control-lg" style="width:200px!important;">CONSULTAR AGORA</button>
+        </div>
+      </div>
+      <div class="mb-5">
+        <p>Precisa de ajuda para consultar os pontos de venda?</p>
+      </div>
     </div>
   </div>
 @endsection

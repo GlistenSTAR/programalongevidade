@@ -182,7 +182,7 @@
     position: relative;
     width:100%;
     position:relative;
-    height:400px!important
+    height:350px!important
   }
   .register .heading{
     position: absolute;
@@ -192,7 +192,7 @@
     width: 58%;
     padding:20px 50px;
     margin-top: -10px;
-    z-index: 9999;
+    z-index: 9;
     margin-left: 22%;
     font-family: 'Questrial', sans-serif;
   }
@@ -200,12 +200,11 @@
     height: 50px;
     border:solid 1px #207e8d;
   }
-  .register .main .btn-primary{
+  .register .main .btn-primary, .find_dragstore .btn-primary{
     background-color: #207E8D;
     color: white;
-    width: 250px;
   }
-  .register .main .btn-primary:hover{
+  .register .main .btn-primary:hover, .find_dragstore .btn-primary:hover{
     background-color: #1f5bd3;
   }
   .register .dot_line{
@@ -213,6 +212,26 @@
     background: transparent url(../images/pontilhado_bg_branco.png?crc=4288651323) repeat-x left top;
   }
 
+  .find_dragstore h1, .find_dragstore p{
+    color:#233164;
+  }
+  .find_dragstore select{
+    border: solid 1px #207e8d;
+    color: #207e8d;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 10px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  .find_dragstore .uf{
+    width: 70px;
+  } 
+  .find_dragstore .cidade, .find_dragstore .bairro{
+    width: 255px;
+  }
 
   @media only screen and (max-width: 600px){
     .header{
