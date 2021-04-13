@@ -141,11 +141,13 @@
 
   .main_page{
     background-color: #BDAB9D;
+    z-index: 1;
   }
   .main_page .carousel.slide.carousel-fade img{
     width:1138px;
     height:467px!important;
     background-size:cover ;
+    z-index: 1;
   }
   .main_page .carousel-indicators{
     right: 0;
@@ -168,6 +170,49 @@
     background-color: #81CAD5;
   }
   
+  .register.container-fluid{
+    background-color: #81CAD5;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .register .register_header{
+    background: url(../images/pontilhado_bg_branco.png?crc=4288651323) repeat-x left top;
+    height: 20px;
+    position: relative;
+    width:100%;
+    position:relative;
+    height:400px!important
+  }
+  .register .heading{
+    position: absolute;
+    background: #49B6C7 url(../images/home_barra_divisora.gif?crc=517256253) no-repeat left top;
+    font-size: 34px;
+    color: white;
+    width: 58%;
+    padding:20px 50px;
+    margin-top: -10px;
+    z-index: 9999;
+    margin-left: 22%;
+    font-family: 'Questrial', sans-serif;
+  }
+  .register .main .input-lg{
+    height: 50px;
+    border:solid 1px #207e8d;
+  }
+  .register .main .btn-primary{
+    background-color: #207E8D;
+    color: white;
+    width: 250px;
+  }
+  .register .main .btn-primary:hover{
+    background-color: #1f5bd3;
+  }
+  .register .dot_line{
+    height: 20px;
+    background: transparent url(../images/pontilhado_bg_branco.png?crc=4288651323) repeat-x left top;
+  }
+
 
   @media only screen and (max-width: 600px){
     .header{

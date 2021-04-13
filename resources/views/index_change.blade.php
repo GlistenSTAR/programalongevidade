@@ -23,4 +23,36 @@
       </div>
     </div>
   </div>
+  <div class="container-fluid register">
+    <div class="register_header" style=""> <!---relative --->
+      <div class="row"  style="height:100px!important"> <!---relative --->
+        <div class="heading" align="center"> <!---absolute --->
+          <div>Ainda não tem cadastro? Comece por aqui.</div>
+        </div>
+      </div>
+      <div align="center" style="color:white">
+        <h1>
+          Nos informe o seu melhor e-mail
+        </h1>
+        <h4>O seu cadastro será feito de forma fácil e rápida</h4>
+      </div>
+      <div class="container main">
+        <div class="row" align="center">
+          <div class="col-md-3" align="right">
+            <img class="block" id="u570_img" alt="" width="86" height="82" data-muse-src="images/home_icone_inicia_cadastro.png?crc=3891080647" src="images/home_icone_inicia_cadastro.png?crc=3891080647" data-nsfw-filter-status="sfw" style="visibility: visible;">
+          </div>
+          <div class="col-md-4" style="margin-top:auto; margin-bottom:auto">
+            <input type="email" class="form-control input-lg" placeholder="Vamos começar com o seu e-mail?">
+          </div>
+          <div class="col-md-4" style="margin-top:auto; margin-bottom:auto">
+            <button class="btn btn-lg btn-primary">CADASTRAR AGORA</button>
+          </div>
+        </div>
+        <div align="center" style="margin-bottom:80px">
+          <h4><a style="color:white">Já sou cadastrado. Como faço para acessar meus dados?</a></h4>
+        </div>
+      </div>
+      <div class="dot_line"></div>
+    </div>
+  </div>
 @endsection
