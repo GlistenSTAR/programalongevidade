@@ -65,7 +65,6 @@ class CommonController extends Controller
 
     public function buscaFarmaciasAction(Request $poRequest)
     {
-
         $cidade = $poRequest->input("cidade");
         $bairro = $poRequest->input("bairro");
 

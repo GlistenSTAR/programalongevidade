@@ -62,16 +62,16 @@
             <img class="block" id="u603_img" alt="" width="86" height="82" data-muse-src="images/home_icone_localizar_farmacia.png?crc=4214829112" src="images/home_icone_localizar_farmacia.png?crc=4214829112" data-nsfw-filter-status="sfw" style="visibility: visible;">
           </div>
           <div class="col-md-7 form-group" align="left" style="margin-top:auto; margin-bottom:auto">
-            <select class="uf" id="ufID">
+            <select class="uf" name="uf" id="ufID">
               <option value="" selected>UF</option>
               @foreach ($laEstados as $estado)
               <option value="{{$estado->ESTADO_ID}}">{{$estado->ESTADO_UF}}</option>
               @endforeach
             </select>
-            <select class="cidade" id="cidadeId">
+            <select class="cidade" name="cidade" id="cidadeId">
               <option value="" selected>Cidade</option>
             </select>
-            <select class="bairro" id="bairroId">
+            <select class="bairro" name="bairro" id="bairroId">
               <option value="" selected>Bairro</option>
             </select>
           </div>
