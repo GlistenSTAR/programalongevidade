@@ -227,10 +227,10 @@
     margin-left: 10px;
   }
   .find_dragstore .uf{
-    width: 70px;
+    width: 60px;
   } 
   .find_dragstore .cidade, .find_dragstore .bairro{
-    width: 255px;
+    width: 240px;
   }
 
   @media only screen and (max-width: 600px){
