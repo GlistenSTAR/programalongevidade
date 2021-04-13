@@ -150,6 +150,7 @@
   .main_page .carousel-indicators{
     right: 0;
     margin-left: 0;
+    padding-right: 200px;
   }
   .main_page .carousel-indicators li{
     border: 1px solid grey;
