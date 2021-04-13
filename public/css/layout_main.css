@@ -139,8 +139,11 @@
   }
 
 
-  .main_page .carousel img{
-    width:100%;
+  .main_page{
+    background-color: #BDAB9D;
+  }
+  .main_page .carousel.slide.carousel-fade img{
+    width:1138px;
     height:467px!important;
     background-size:cover ;
   }
