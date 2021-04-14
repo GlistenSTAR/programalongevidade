@@ -1,7 +1,10 @@
   h1, span, li, button {
     font-family: 'Questrial', sans-serif;
   };
-  
+  body{
+    overflow-x: hidden!important;
+    width: 100%;
+  }
   #accordionu2299-bw {
    z-index: 800;
   }
@@ -255,4 +258,61 @@
     .menus{
       padding-top:0px;
     }
+  }
+
+
+
+
+
+
+
+
+
+  /* logined_header */
+  .header_logined{
+    background-color: #02334F;
+    z-index: 168;
+    min-height: 83px;
+    padding-bottom: 13px;
+    height: 100px;
+  }
+  .header_logined #pu8153 {
+    z-index: 168;
+    padding-bottom: 0px;
+    margin-right: -10000px;
+    width: 100%;
+  }
+  .header_logined #u8153-bw {
+    z-index: 168;
+    min-height: 83px;
+    left: 0px;
+    margin-left: 0px;
+  }
+  .header_logined #u8153_align_to_page, #u94_align_to_page {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  .header_logined .header_second .col-md-4{
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .header_logined button{
+    background: linear-gradient(to bottom,#297ED8 14%,#0045D0 );
+  }
+  
+  .header_logined button:hover{
+    background: linear-gradient(to bottom,#3687dd 14%,#1f5bd3 );
+  }
+
+  .header_logined ul li{
+    padding-top:2px;
+    padding-bottom:2px
+  }
+
+  .header_logined .header_third_part a{
+    color:white;
+    text-decoration: none;
   }

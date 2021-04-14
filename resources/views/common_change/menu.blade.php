@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<div class="menus">
+<div class="menus" style="width:100%">
   <div class="menu_background"></div>
   <nav class="navbar navbar-default" >
     <div class="container mt-2 mb-2">

@@ -8,7 +8,7 @@
     <h1>O QUE VOCÊ DESEJA FAZER AGORA?</h1>
 </div>
 <div class="clearfix mse_pre_init shared_content" id="u28864-4" data-IBE-flags="txtStyleSrc" data-content-guid="u28864-4_content"><!-- content -->
-    <h1 id="u28864-2">{{$user->LGV_USER_NOME}}</h1>
+    <h1 id="u28864-2">{{$user->LGV_USER_NOME}}---------------</h1>
 </div>
 <a href="/fale_conosco" class="nonblock nontext clearfix mse_pre_init shared_content" id="u28230-4" data-IBE-flags="txtStyleSrc" data-content-guid="u28230-4_content"><!-- content -->
     <h1>•&nbsp; FALE CONOSCO</h1>
