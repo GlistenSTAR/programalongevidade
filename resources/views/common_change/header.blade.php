@@ -132,6 +132,8 @@
                 return false;
             });
         });
+        </script>
+        @include("commons.terms_lightbox")
     @else
         <div class="header_logined" style="position: fixed; width:100%">
             <div class="container">
@@ -142,8 +144,9 @@
                             <i class="fas fa-angle-right" style="font-size:30px">
                                 <span style="font-size:13px; vertical-align:middle"><b>BEM-VINDO(A) - VOCÊ ESTÁ CONECTADO:</b></span>
                             </i>
-                            <p style="font-size:13px; vertical-align:middle">
-                                <b>{{$user->LGV_USER_NOME}}</b>
+                            <p style="font-size:18px; vertical-align:middle;">
+                                <b>{{Auth::user()->name}}</b>
+                                <!-- {{$user->LGV_USER_NOME}} -->
                             </p>
                         </div>
                     <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">

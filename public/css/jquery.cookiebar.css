@@ -1,15 +1,23 @@
 #cookie-bar {
-    background:#595959;
-    height:auto;
-    line-height:24px;
-    color:#eeeeee;
-    text-align:center;
-    padding:10px 0;
-    margin-bottom: 10px;
+    background: #0e584e;
+    height: auto;
+    line-height: 22px;
+    color: #eeeeee;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
     z-index: 10000000000000000000 !important;
-    opacity: 0.8;
+    border-radius: 8px;
+    font-size: 12pt;
+    opacity: 0.9;
+    font-family: 'Questrial', sans-serif;
 }
-#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
+#cookie-bar.fixed {
+    position: fixed;
+    width: 82%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 #cookie-bar.fixed.bottom {bottom:0; top:auto;}
 #cookie-bar p {margin:0; padding:0;}
 #cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}

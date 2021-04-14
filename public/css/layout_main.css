@@ -1,4 +1,4 @@
-  h1, span, li, button {
+  h1, span, li, button, p {
     font-family: 'Questrial', sans-serif;
   };
   body{
@@ -315,4 +315,50 @@
   .header_logined .header_third_part a{
     color:white;
     text-decoration: none;
+  }
+
+
+  .dot_line{
+    opacity: 1;
+    height: 5px;
+    background: transparent url(../images/pontilhado_bg_azul.png?crc=345125544) repeat-x left top;
+  }
+  .main_page_logined{
+    color:#2DBAD1;
+    font-family: 'Questrial', sans-serif; 
+  }
+  .main_page_logined hr{
+    border-top: 6px solid #2DBAD1;
+    width: 20%;
+    align-items: left;
+  }
+  .main_page_logined .gold_border_area{
+    border: 1px solid #BA9000;
+    margin-top: 100px;
+  }
+  .main_page_logined .gold_border_area .small_gold_border_area{
+    border: 1px solid #BA9000;
+    width: 45%;
+    color: #212F63;
+    margin-left: 50px;
+    margin-top:-40px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .main_page_logined .gold_border_area p{
+    color:grey
+  }
+  .main_page_logined .gold_border_area .col-md-8 button{
+    width: 300px;
+  }
+  .main_page_logined .gold_border_area .col-md-9 button{
+    width: 350px;
+  }
+  .main_page_logined .gold_border_area .col-md-9 p{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .main_page_logined .delete_account_content{
+    font-family: 'Questrial', sans-serif; 
   }

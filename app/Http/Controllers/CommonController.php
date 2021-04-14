@@ -125,7 +125,8 @@ class CommonController extends Controller
     {
         // return view('index_change');
         $this->checkIfAuthenticated();
-        $this->insertRequestToStats($poRequest, RouteIdsEnum::indexAction);
+        $this->insertRequestToStats($poRequest, RouteIdsEnum::faleConoscoOkAction);
+        
         return view('index_change')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
     }
 
@@ -155,7 +156,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::posCadastroAdesaoOKAction);
-        return view('pos_cadastro_adesao_ok')->with('user', $this->paciente);
+        return view('index_change')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
 
     }
 
