@@ -28,7 +28,7 @@ Route::get('/cadastro_adesao','CommonController@cadastroAdesaoAction');
 Route::post('/submits/post_cadastro_adesao','UserManagementController@cadastroAdesaoPostAction');
 Route::get('/submits/post_cadastro_adesao','CommonController@cadastroAdesaoAction');
 Route::get('/fale_conosco', 'CommonController@faleConoscoAction');
-Route::get('/fale_conosco_ok','CommonController@faleConoscoOkAction')->name('fale_conosco_ok');
+Route::get('/fale_conosco_ok','CommonController@faleConoscoOkAction')->name('fale_conosco_ok'); 
 Route::post('/submits/post_fale_conosco','FaleConoscoController@faleConoscoPostAction');
 Route::get('/submits/post_fale_conosco','CommonController@faleConoscoAction');
 Route::get('/farmacias','CommonController@farmaciasAction');

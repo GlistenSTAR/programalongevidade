@@ -98,7 +98,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::faleConoscoAction);
-        return view('fale_conosco' . $this->logadoView)->with([
+        return view('!_contact_us' . $this->logadoView)->with([
             'laEstados' => $this->fetchAllEstados(),
             'laProdutos' => $this->fetchAllProdutos(),
             'user' => $this->paciente
@@ -123,10 +123,8 @@ class CommonController extends Controller
 
     public function indexAction(Request $poRequest)
     {
-        // return view('index_change');
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::faleConoscoOkAction);
-        
         return view('!_index')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
     }
 
