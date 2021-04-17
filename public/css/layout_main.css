@@ -362,3 +362,12 @@
   .main_page_logined .delete_account_content{
     font-family: 'Questrial', sans-serif; 
   }
+
+  .delete_account_content a{
+    color: #212F63!important;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .delete_account_content a:hover{
+    color: #2DBAD1!important;
+  }

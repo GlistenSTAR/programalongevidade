@@ -159,7 +159,7 @@
           <div class="delete_account_content mb-5">
             <h3 style="color:#212F63">Para você deixar o programa Longevidade:</h3>
             <p style="color:grey; text-align: justify; text-justify: inter-word;line-height:2;">Em atendimento à LGPD brasileira e seguindo as normas previstas em nossa política de privacidade, você pode solicitar a exclusão definitiva do seu cadastro do site e do sistema do programa Longevidade. Seus dados serão excluídos de nosso banco de dados, portanto, não teremos mais acesso a nenhum dado pessoal seu. Esse processo é chamado de anonimização e está previsto na LGPD brasileira.<br>
-              Caso você queira excluir seu cadastro e realizar o processo de anonimização no programa Longevidade, por favor, clique NESTE LINK e confirme a sua decisão. Uma vez que este processo seja realizado, você ainda poderá realizar novo cadastro e voltar a fazer parte do programa e usufruir dos benefícios oferecidos.</p>
+              Caso você queira excluir seu cadastro e realizar o processo de anonimização no programa Longevidade, por favor, <a id="dialog-link">clique NESTE LINK</a> e confirme a sua decisão. Uma vez que este processo seja realizado, você ainda poderá realizar novo cadastro e voltar a fazer parte do programa e usufruir dos benefícios oferecidos.</p>
           </div>
         </div>
         <script>

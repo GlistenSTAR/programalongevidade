@@ -127,7 +127,7 @@ class CommonController extends Controller
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::faleConoscoOkAction);
         
-        return view('index_change')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
+        return view('!_index')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
     }
 
     public function loginAction(Request $poRequest)
