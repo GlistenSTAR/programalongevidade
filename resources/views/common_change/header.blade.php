@@ -1,7 +1,7 @@
 <script src="js/field_formater.js"></script>
 <script src="/js/jquery.mask.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="/js/form_control.js"></script>
-
+<link rel="stylesheet" type="text/css" href="css/!layout_main.css"/>
 @if(!Auth::check())
     <div class="header" style="position: fixed; width:100%">
         <div class="container">
@@ -77,7 +77,7 @@
                     <ul class="mb-0 header_third_part">
                         <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
                         <li><a href="http://www.torrent.com.br"><b>VISITE O SITE DA TORRENT</b></a></li>
-                        <li><a href="/lgv_login"><b>NOVO PEDIDO</b></a></li>
+                        <li><a href="/nova_requisicao"><b>NOVO PEDIDO</b></a></li>
                     </ul>
             </div>
             </div>
@@ -174,7 +174,7 @@
                         <ul class="mb-0 header_third_part">
                             <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
                             <li><a href="http://www.torrent.com.br"><b>VISITE O SITE DA TORRENT</b></a></li>
-                            <li><a href="/lgv_login"><b>NOVO PEDIDO</b></a></li>
+                            <li><a href="/nova_requisicao"><b>NOVO PEDIDO</b></a></li>
                         </ul>
                 </div>
                 </div>

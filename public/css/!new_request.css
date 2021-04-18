@@ -1,0 +1,65 @@
+.new_request li,.new_request p,.new_request div,.new_request h1,.new_request h2,.new_request h3,.new_request h4,.new_request h5,.new_request h6,.new_request a{
+  font-family: 'Questrial', sans-serif;
+}
+.new_request h2{
+  color:#2DBAD1;
+}
+.new_request p{
+  color:grey;
+  font-size: 18px;
+}
+.new_request h3{
+  color: #223163;
+}
+.new_request .badge-primary{
+  background-color: #223163; 
+  border-radius:50%; 
+  font-size:34px;
+  width: 39px;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-left:10px;
+  margin-right:20px;
+}
+.new_request p.small_padding{
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 14px;
+  color: #223163;
+}
+.new_request label{
+  color:#2DBAD1 ;
+  font-size: 18px;
+}
+.new_request #aceito_regulamento{
+  width: 25px;
+  height: 25px;
+  vertical-align: text-bottom;
+}
+.new_request .checkarea{
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.new_request .checkarea span{
+  color:#223163;
+  font-size: 16px;
+  margin-top: auto;
+  text-decoration: underline;
+}
+.new_request .no_accept a{
+  font-size: 20px;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.new_request .no_accept a, .new_request .no_accept div{
+  color: #00A99D;
+}
+.new_request .btn-default{
+  background:linear-gradient(to bottom,#319BAC 6%,#008A77 );
+  color:white
+}
+.new_request .btn-default:hover{
+  background:linear-gradient(to bottom,#19a0b4 6%,#015f53 );
+}

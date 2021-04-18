@@ -1,0 +1,62 @@
+.contact_us li,.contact_us p,.contact_us div,.contact_us h1,.contact_us h2,.contact_us h3,.contact_us h4,.contact_us h5,.contact_us h6,.contact_us a{
+  font-family: 'Questrial', sans-serif;
+}
+.contact_us .background{
+  z-index: 97;
+    height: 344px;
+    background-image: url(../images/chamada_contato.jpg?crc=4233459651);
+    position: relative;
+    background-size: cover;
+}
+.contact_us .background .faca{
+  background-color: rgba(45,186,209,0.55);
+  height: 70px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+.contact_us .background .faca_letter{
+  color:white;
+  font-size: 38px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  padding-left: 100px;
+}
+.contact_us h2{
+  color:#2DBAD1;
+}
+.contact_us p{
+  color:grey;
+  font-size: 18px;
+}
+.contact_us .left{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.contact_us .left h3{
+  color:#2DBAD1;
+}
+.contact_us .left div{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact_us .col-md-6.right{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.contact_us .right div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact_us .right label{
+  color:#2DBAD1;
+  font-size: 18px;
+}
+.contact_us .right .btn-default{
+  background-color: #319BAC;
+  border-color:#207E8D;
+  color:white;
+  width: 300px;
+}

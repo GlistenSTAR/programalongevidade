@@ -98,7 +98,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::faleConoscoAction);
-        return view('!_contact_us' . $this->logadoView)->with([
+        return view('!_contact_us')->with([
             'laEstados' => $this->fetchAllEstados(),
             'laProdutos' => $this->fetchAllProdutos(),
             'user' => $this->paciente
@@ -138,7 +138,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::novaRequisicaoAction);
-        return view('nova_requisicao')->with(['user' => $this->paciente, 'laProdutos' => $this->fetchAllProdutos(), 'laEstados' => $this->fetchAllEstados()]);
+        return view('!_new_request')->with(['user' => $this->paciente, 'laProdutos' => $this->fetchAllProdutos(), 'laEstados' => $this->fetchAllEstados()]);
 
     }
 
