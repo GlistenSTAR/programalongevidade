@@ -23,23 +23,23 @@
       <div class="row" style="width:60%" align="left">
         <div class="col-md-6">
           <label>Name : </label>
-          <input type="text" class="form-control cad_texto" id="cad_nome" name="Nome" required placeholder="Digite seu nome">
+          <input type="text" class="form-control cad_texto" id="cad_nome" name="Nome" required placeholder="Digite seu nome" data-content-type="nome_completo">
           <br>
           <label>CPF : </label>
-          <input type="text" class="form-control cad_texto" id="cad_CPF" name="Cpf" required value="{{ $userCpf }}" maxlength="14" placeholder="Digite seu CPF">
+          <input type="text" class="form-control cad_texto" id="cad_CPF" name="Cpf" required value="{{ $userCpf }}" maxlength="14" placeholder="Digite seu CPF" data-content-type="cpf">
           <br>
           <label>Telefone celular com DDD: : </label>
-          <input type="text" class="form-control cad_texto" id="cad_tel_celular" name="TelCelular" maxlength="15" required placeholder="Ex.: (11) 5501-2500">
+          <input type="text" class="form-control cad_texto" id="cad_tel_celular" name="TelCelular" maxlength="15" data-content-type='cel' required placeholder="Ex.: (11) 5501-2500" >
         </div>
         <div class="col-md-6">
           <label>E-mail : </label>
-          <input id="cad_email" data-content-type='email' name="Email" type="text" class="form-control cad_texto" required placeholder="Digite seu e-mail">
+          <input id="cad_email" data-content-type='email' name="Email" type="text" class="form-control cad_texto" required placeholder="Digite seu e-mail" data-content-type="email">
           <br>
           <label>Data de Nascimento : </label>
-          <input type="text" class="form-control cad_texto" id="cad_dt_nascto" name="dtNascimento" required placeholder="Ex.: 18/04/1965">
+          <input type="text" class="form-control cad_texto" id="cad_dt_nascto" name="dtNascimento" required placeholder="Ex.: 18/04/1965" data-content-type="data">
           <br>
           <label>Telefone fixo com DDD : </label>
-          <input type="text" class="form-control cad_texto" id="cad_tel_fixo" name="TelComercial" required placeholder="Ex.: (11) 5501-2500">
+          <input type="text" class="form-control cad_texto" id="cad_tel_fixo" name="TelComercial" data-content-type='tel' required placeholder="Ex.: (11) 5501-2500">
         </div>
       </div>
       <div align="center first mb-5" style="width:50%">

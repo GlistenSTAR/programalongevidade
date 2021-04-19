@@ -130,7 +130,7 @@ class CommonController extends Controller
     public function loginAction(Request $poRequest)
     {
         $this->insertRequestToStats($poRequest, RouteIdsEnum::loginAction);
-        return view('login');
+        return view('!_login');
     }
 
     public function novaRequisicaoAction(Request $poRequest)
@@ -153,7 +153,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::posCadastroAdesaoOKAction);
-        return view('index_change')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
+        return view('!_sucesse_register')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
 
     }
 

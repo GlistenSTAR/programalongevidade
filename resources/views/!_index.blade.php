@@ -132,7 +132,7 @@
           </p>
           <div class="gold_border_area">
             <div class="small_gold_border_area">
-              <h2>O que você deseja fazer agora ?</h2>
+              <h2><b>O que você deseja fazer agora ?</b></h2>
             </div>
             <div class="row mt-5 mb-5" align="center">
               <div class="col-md-6 mt-5" style="padding-left:0 padding-right:0">

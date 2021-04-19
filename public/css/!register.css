@@ -31,7 +31,7 @@
   color:grey;
   font-size: 18px;
 }
-.register .dot_line{
+.dot_line{
   height: 5px;
   background: transparent url(../images/pontilhado_bg_azul.png?crc=345125544) repeat-x left top;
 }
@@ -88,4 +88,93 @@
 }
 .register .btn-default:hover{
   background:linear-gradient(to bottom,#19a0b4 6%,#015f53 );
+}
+.sucesse_register li,.sucesse_register p,.sucesse_register div,.sucesse_register h1,.sucesse_register h2,.sucesse_register h3,.sucesse_register h4,.sucesse_register h5,.sucesse_register h6,.sucesse_register a{
+  font-family: 'Questrial', sans-serif;
+}
+.sucesse_register h1{
+  color:#19a0b4;
+  font-size: 38px;
+}
+.sucesse_register p, .sucesse_register h2{
+  color:#989079;
+  font-size: 20px;
+}
+.sucesse_register h2{
+  font-size: 34px;
+}
+.sucesse_register .gold_border_area{
+  border: 1px solid #BA9000;
+  margin-top: 100px;
+}
+.sucesse_register .gold_border_area h2{
+  font-size: 32px;
+  color:#212F63
+}
+.sucesse_register .gold_border_area .small_gold_border_area{
+  border: 1px solid #BA9000;
+  width: 45%;
+  color: #212F63;
+  margin-left: 50px;
+  margin-top:-40px;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.sucesse_register .gold_border_area p{
+  color:grey;
+  font-size: 12px;
+}
+.sucesse_register .gold_border_area .col-md-8 button{
+  width: 300px;
+}
+.sucesse_register .gold_border_area .col-md-9 button{
+  width: 350px;
+}
+.sucesse_register .gold_border_area .col-md-9 p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.login li,.login p,.login div,.login h1,.login h2,.login h3,.login h4,.login h5,.login h6,.login a{
+  font-family: 'Questrial', sans-serif;
+}
+.login .login_background{
+  z-index: 97;
+  height: 225px;
+  background-image: url(../images/chamada_cadastro.jpg?crc=4193824423);
+  background-size: cover;
+  position: relative;
+}
+.login .login_background .blue_background{
+  background-color: rgba(45,186,209,0.55);
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  color: white;
+  text-align: left;
+  font-size: 38px;
+  padding-left: 200px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.login .grey_back{
+  background-color: #E7F0F5;
+}
+.login label{
+  color: #319BAC;
+  font-size: 18px;
+  margin-top:20px;
+}
+.login button.btn-default{
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to bottom,#319BAC 6%,#008A77 );
+  color:white
+}
+.login button.btn-default:hover{
+  background: linear-gradient(to bottom,#119eb4 6%,#01554a );
 }
