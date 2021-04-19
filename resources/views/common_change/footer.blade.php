@@ -29,7 +29,7 @@
         <p align="center">
           <a href="http://www.torrent.com.br" title="Visite o site da Torrent do Brasil"><span>Site da Torrent do Brasil </span></a><span class="color"> | </span>
           <a href="https://www.facebook.com/torrentbrasil/" title="Viste nossa página no Facebook"><span> Siga a Torrent no Facebook </span></a><span class="color"> | </span>
-          <a href="/lgv_login"><span> Novas adesões </span></a><span class="color"> | </span>
+          <a href="/regulamento"><span> Novas adesões </span></a><span class="color"> | </span>
           <a href="/fale_conosco"><span>Fale conosco</span></a>
         </p>
       </div>

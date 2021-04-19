@@ -13,15 +13,15 @@
       <div class="container mt-5" style="width:80%">
         <div class="col-md-6">
           <label>Nome do médico : </label>
-          <input type="text" class="form-control fc_texto" id="fc_nome" name="Nome" required placeholder="Digite o nome do médico">
+          <input type="text" class="form-control cad_texto" id="cad_medico" name="NomeMedico" required placeholder="Digite o nome do médico">
         </div>
         <div class="col-md-4">
           <label>CRM : </label>
-          <input type="number" class="form-control fc_texto" id="fc_nome" name="Nome" required placeholder="Somente númeross">
+          <input type="number" class="form-control cad_texto_crm" id="cad_med_crm" name="Crm" required placeholder="Somente númeross">
         </div>
         <div class="col-md-2">
           <label>UF do CRM : </label>
-          <select class="uf form-control" name="uf" id="ufID">
+          <select id="cad_uf_crm" name="UfCrm" required class="cad_caixa_selecao form-control">
             <option value="" selected>UF</option>
             @foreach ($laEstados as $estado)
             <option value="{{$estado->ESTADO_ID}}">{{$estado->ESTADO_UF}}</option>
@@ -71,9 +71,7 @@
   <script type="text/javascript" src="/js/form_control.js"></script>
   <script type="text/javascript">
       $(document).ready(function() {
-
           $("#submit_request").on("click", function(event){
-
               var blockDiv = document.createElement('div');
               $(blockDiv).css({'width' : '2200px', 'height' : '4200px', 'position' : 'absolute', 'z-index' : '1000000000000'});
               $(blockDiv).html(" ");

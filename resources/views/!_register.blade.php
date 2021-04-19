@@ -73,7 +73,7 @@
       <div class="row mt-5" style="width:50%" align="left">
         <div class="col-md-6">
           <label>Medicamento : </label>
-          <select id="cad_produtos" name="Medicamento" required class="cad_caixa_selecao form-control">
+          <select id="medicamento" required name="Medicamento" class="cad_caixa_selecao form-control" onchange="getListaApresentacao(this)">
             <option value="">Selecione uma opção</option>
             @foreach ($laProdutos as $produto)
             <option value="{{$produto->LGV_PRODUTO_MARCA}}">{{$produto->LGV_PRODUTO_MARCA}}</option>
@@ -82,7 +82,7 @@
         </div>
         <div class="col-md-6">
           <label>Apresentação : </label>
-          <select id="cad_produto_apresentacao" name="Apresentacao" required class="cad_caixa_selecao form-control">
+          <select id="medicamento_apresentacao" required name="Apresentacao" class="cad_caixa_selecao form-control">
             <option value="">Selecione uma opção</option>
           </select>
         </div>
@@ -104,4 +104,75 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="/js/form_control.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function() {
+
+
+          $("#submit_request").on("click", function(event){
+
+              var blockDiv = document.createElement('div');
+              $(blockDiv).css({'width' : '2200px', 'height' : '4200px', 'position' : 'absolute', 'z-index' : '1000000000000'});
+              $(blockDiv).html(" ");
+              $(event.currentTarget).parent().css({'position' : 'relative'});
+              $(event.currentTarget).parent().append(blockDiv);
+
+
+              event.preventDefault();
+
+              if (!$("#aceito_regulamento")[0].checked) {
+
+                  alert("É necessário concordar com as cláusulas do contrato.");
+                  $(event.currentTarget).parent().css({'position' : 'static'});
+                  $(blockDiv).remove();
+
+              } else {
+
+                  if (validateForm($('input'), $('select'), null)) {
+
+                      $("#submit_request").on("click", function(event){});
+                      $("#submit_request").text("Aguarde...");
+
+                      var form = generateForm('/submits/post_cadastro_adesao', 'POST', '{{csrf_token()}}', $('input'), $('select'), null);
+                      $('body').append(form);
+                      form.submit();
+                  } else {
+                      $(event.currentTarget).parent().css({'position' : 'static'});
+                      $(blockDiv).remove();
+                  }
+              }
+          });
+
+      });
+      function getListaApresentacao(obj) {
+          var marca = $(obj).val();
+          $.ajax
+          ({
+              url: '/api/fetchProdutosByMarca/' + marca,
+              type: 'GET',
+              datatype: 'application/json',
+              contentType: 'application/json',
+              success:
+
+                  function (result) {
+
+                      $("#"+$(obj).attr('id')+"_apresentacao").html("");
+                      $("#"+$(obj).attr('id')+"_apresentacao").append($('<option value="">Selecione uma opção</option>'));
+                      var lastProduct = null;
+
+                      $.each(result, function (i, produto) {
+
+                          if (lastProduct == null || lastProduct != produto.LGV_PRODUTO_DESCRICAO) {
+                              $("#"+$(obj).attr('id')+"_apresentacao").append($('<option value="' + produto.LGV_PRODUTO_ID + '">' + produto.LGV_PRODUTO_DESCRICAO + '</option>'));
+                              lastProduct = produto.LGV_PRODUTO_DESCRICAO;
+                          }
+
+                      })
+                  },
+              error: function () {
+                  alert("Ocorreu um erro ao carregar as opções")
+              },
+          });
+      }
+  </script>
 @endsection

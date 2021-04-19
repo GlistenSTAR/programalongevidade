@@ -161,7 +161,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::processoOkNovaRequisicaoAction);
-        return view('processo_ok_nova_requisicao')->with('user', $this->paciente);
+        return view('!_success_order')->with('user', $this->paciente);
 
     }
 
