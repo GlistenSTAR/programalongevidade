@@ -87,11 +87,10 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($request, RouteIdsEnum::cadastroAdesaoAction);
-        return view('cadastro_adesao')->with(['userCpf' => $request->input('cpfContato'),
+        return view('!_register')->with(['userCpf' => $request->input('cpfContato'),
             'laEstados' => $this->fetchAllEstados(),
             'laProdutos' => $this->fetchAllProdutos(),
             'userEmail' => $request->input('Email')]);
-
     }
 
     public function faleConoscoAction(Request $poRequest)

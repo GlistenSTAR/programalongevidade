@@ -1,0 +1,91 @@
+.register li,.register p,.register div,.register h1,.register h2,.register h3,.register h4,.register h5,.register h6,.register a{
+  font-family: 'Questrial', sans-serif;
+}
+.register .background{
+  z-index: 97;
+  height: 244px;
+  background: transparent url(../images/chamada_cadastro.jpg?crc=4193824423) no-repeat center center;
+  position: relative;
+  background-size: cover;
+}
+.register .background .faca{
+  background-color: rgba(45,186,209,0.55);
+  height: 70px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+.register .background .faca_letter{
+  color:white;
+  font-size: 38px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  padding-left: 100px;
+}
+.register h2{
+  color:#2DBAD1;
+}
+.register p{
+  color:grey;
+  font-size: 18px;
+}
+.register .dot_line{
+  height: 5px;
+  background: transparent url(../images/pontilhado_bg_azul.png?crc=345125544) repeat-x left top;
+}
+.register .badge-primary{
+  background-color: #223163; 
+  border-radius:50%; 
+  font-size:34px;
+  width: 39px;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-left:10px;
+  margin-right:20px;
+}
+.register .small_padding{
+  font-size: 14px;
+}
+.register #aceito_regulamento{
+  width: 25px;
+  height: 25px;
+  vertical-align: text-bottom;
+}
+.register .checkarea{
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.register .checkarea span{
+  color:#223163;
+  font-size: 16px;
+  margin-top: auto;
+  text-decoration: underline;
+}
+.register .no_accept a{
+  font-size: 20px;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.register .no_accept a, .register .no_accept div{
+  color: #00A99D;
+}
+.register .no_accept a{
+  font-size: 20px;
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.register .no_accept a, .register .no_accept div{
+  color: #00A99D;
+}
+.register .btn-default{
+  background:linear-gradient(to bottom,#319BAC 6%,#008A77 );
+  color:white
+}
+.register .btn-default:hover{
+  background:linear-gradient(to bottom,#19a0b4 6%,#015f53 );
+}

@@ -11,10 +11,6 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome'); 
-//});
-
 
 Route::get('/','CommonController@indexAction');
 Route::get('/altera_dados_ok','CommonController@alteraDadosOkAction')->middleware('auth');
