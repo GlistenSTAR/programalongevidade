@@ -60,7 +60,7 @@ class CommonController extends Controller
             $this->paciente->LGV_USER_TELEFONE_CELULAR_NUMERO = null;
         }
 
-        return view('altera_dados_pessoais')->with('user', $this->paciente);
+        return view('!_edit_profile')->with('user', $this->paciente);
     }
 
     public function buscaFarmaciasAction(Request $poRequest)

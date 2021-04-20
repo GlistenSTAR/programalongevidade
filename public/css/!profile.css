@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
+  font-family: 'Questrial', sans-serif;
+}
+.edit_profile h2{
+  color: #319BAC;
+  font-size: 38px;
+}
+.edit_profile p{
+  color:grey;
+  font-size: 18px;
+}
+.edit_profile label{
+  font-size: 16px;
+  color:#0d98ad
+}
+.edit_profile button.btn-default{
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to bottom,#319BAC 6%,#008A77 );
+  color: white;
+}
+.edit_profile button.btn-default:hover{
+  background: linear-gradient(to bottom,#0d98ad 6%,#01584d );
+}
