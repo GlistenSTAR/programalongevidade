@@ -40,7 +40,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::alteraDadosOkAction);
-        return view('altera_dados_ok')->with('user', $this->paciente);
+        return view('!_save_profile')->with('user', $this->paciente);
     }
 
     public function alteraDadosPessoaisAction(Request $poRequest)
@@ -193,7 +193,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::sobreAction);
-        return view('sobre' . $this->logadoView)->with('user', $this->paciente);
+        return view('!_about_us')->with('user', $this->paciente);
 
     }
 

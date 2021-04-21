@@ -60,3 +60,84 @@
   color:white;
   width: 300px;
 }
+
+
+/* about us */
+.about_us .background{
+  height: 344px;
+  background-image: url(../images/chamada_sobre.jpg?crc=489893363);
+  background-size: cover;
+  position: relative;
+}
+.about_us .background .faca{
+  background-color: rgba(45,186,209,0.55);
+  height: 70px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%; 
+}
+.about_us .background .faca_letter{
+  color:white;
+  font-size: 52px;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  padding-left: 200px;
+}
+.dot_line{
+  height: 10px;
+  background: transparent url(../images/pontilhado_bg.png?crc=3868053100) repeat-x left top;
+}
+.about_us p{
+  font-size: 20px;
+  color:grey;
+  padding-top: 10px;
+}
+.about_us .grey_background{
+  background-color: #F9F9F9;
+}
+.about_us .green_border{
+  border:1px solid #BACFD2; 
+  padding: 40px;
+  border-radius: 5px;
+  position: relative;
+  margin:50px;
+  color: grey;
+  font-size: 18px;
+}
+.about_us .s_green_button{
+  color: white;
+  background-color: #66B5B6;
+  border-top: 10px solid #207E8D;
+  position: absolute;
+  top: 0;
+  margin-top: -30px;
+  margin-left: 30px;
+}
+.about_us .background_1{
+  height: 397px;
+    background-image: url(../images/chamada_estrutura_torrent.jpg?crc=4108917504);
+  background-size: cover;
+  position: relative;
+}
+.about_us .background_1 .faca{
+  background-color: rgba(45,186,209,0.55);
+  height: 70px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%; 
+}
+.about_us .background_1 .faca_letter{
+  color:white;
+  font-size: 60px;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  padding-left: 200px;
+}
+.about_us label{
+  color:grey;
+  font-size: 28px;
+}
