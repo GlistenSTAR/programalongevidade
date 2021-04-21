@@ -1,4 +1,4 @@
-.find_drug li,.find_drug p,.find_drug div,.find_drug h1,.find_drug h2,.find_drug h3,.find_drug h4,.find_drug h5,.find_drug h6,.find_drug a{
+.li,.p,.div,.h1,.h2,.h3,.h4,.h5,.h6,.a{
   font-family: 'Questrial', sans-serif;
 }
 .find_drug .background{
@@ -60,4 +60,43 @@
 }
 .find_drug .btn-primary:hover{
   background-color: #1f5bd3;
+}
+
+.position_drugstore .background{
+  background-image: url(../images/chamada_farmacias.jpg?crc=323513180);
+  height: 230px;
+  position: relative;
+}
+.position_drugstore .background .faca{
+  background-color: rgba(45,186,209,0.55);
+  height: 70px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+.position_drugstore .background .faca_letter{
+  color:white;
+  font-size: 52px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  padding-left: 100px;
+  font-weight: bold;
+}
+.position_drugstore h2{
+  color: #319BAC;
+}
+.position_drugstore p{
+  color:grey;
+  font-size: 18px;
+}
+.position_drugstore .box_position{
+  border: 1px solid #BA9000;
+}
+.position_drugstore .box_position p{
+  font-size: 15px;
+}
+.position_drugstore h1{
+  color: #319BAC;
 }

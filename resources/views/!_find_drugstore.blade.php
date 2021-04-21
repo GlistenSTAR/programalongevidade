@@ -43,24 +43,6 @@
   @include("commons.estado_cidade_bairro")
     <script>
         $(document).ready(function () {
-          $("#go_register").on("click", function (event) {
-          var blockDiv = document.createElement('div');
-          $(blockDiv).css({'width' : '2200px', 'height' : '4200px', 'position' : 'absolute', 'z-index' : '1000000000000'});
-          $(blockDiv).html(" ");
-          $(event.currentTarget).parent().css({'position' : 'relative'});
-          $(event.currentTarget).parent().append(blockDiv);
-
-          event.preventDefault();
-
-          if (validateForm($('input'), null, null)) {
-              var form = generateForm('/cadastro_adesao', 'POST', '{{csrf_token()}}', $('input'), null, null);
-              $('body').append(form);
-              form.submit();
-          } else {
-              $(event.currentTarget).parent().css({'position' : 'static'});
-              $(blockDiv).remove();
-          }
-          });
 
           $("#find_dragstore").on("click", function (event) {
                 // console.log("2");

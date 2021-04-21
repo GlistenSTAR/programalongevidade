@@ -79,7 +79,7 @@ class CommonController extends Controller
 
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::buscaFarmaciasAction);
-        return view('busca_farmacias')->with(['user' => $this->paciente, 'estado' => $estado, 'cidade' => $cidade, 'bairro' => $bairro, 'laFarmacias' => $laFarmacias, 'laEstados' => $this->fetchAllEstados()]);
+        return view('!_drug_position')->with(['user' => $this->paciente, 'estado' => $estado, 'cidade' => $cidade, 'bairro' => $bairro, 'laFarmacias' => $laFarmacias, 'laEstados' => $this->fetchAllEstados()]);
 
     }
 
@@ -109,7 +109,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::faleConoscoOkAction);
-        return view('fale_conosco_ok' . $this->logadoView)->with('user', $this->paciente);
+        return view('!_contact_us_ok')->with('user', $this->paciente);
 
     }
 
@@ -169,7 +169,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::produtosAction);
-        return view('produtos' . $this->logadoView)->with('user', $this->paciente);
+        return view('produtos')->with('user', $this->paciente);
 
     }
 
@@ -177,7 +177,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::programaAction);
-        return view('programa' . $this->logadoView)->with('user', $this->paciente);
+        return view('programa')->with('user', $this->paciente);
 
     }
 
@@ -185,7 +185,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::regulamentoAction);
-        return view('regulamento' . $this->logadoView)->with('user', $this->paciente);
+        return view('regulamento')->with('user', $this->paciente);
 
     }
 
@@ -208,7 +208,7 @@ class CommonController extends Controller
     public function err500Action(Request $poRequest) {
 
         $this->checkIfAuthenticated();
-        return view('err_500' . $this->logadoView)->with(['user' => $this->paciente, 'err_msg' => session('err_msg')]);
+        return view('err_500')->with(['user' => $this->paciente, 'err_msg' => session('err_msg')]);
     }
 
     private function fetchAllEstados()
