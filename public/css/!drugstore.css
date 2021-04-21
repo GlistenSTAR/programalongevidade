@@ -1,0 +1,63 @@
+.find_drug li,.find_drug p,.find_drug div,.find_drug h1,.find_drug h2,.find_drug h3,.find_drug h4,.find_drug h5,.find_drug h6,.find_drug a{
+  font-family: 'Questrial', sans-serif;
+}
+.find_drug .background{
+  height: 344px;
+  background-image: url(../images/chamada_farmacias.jpg?crc=323513180);
+    position: relative;
+    background-size: cover;
+}
+.find_drug .background .faca{
+  background-color: rgba(45,186,209,0.55);
+  height: 70px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+.find_drug .background .faca_letter{
+  color:white;
+  font-size: 52px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  padding-left: 100px;
+  font-weight: bold;
+}
+.green_dot_line {
+    opacity: 1;
+    height: 5px;
+    background: transparent url(../images/pontilhado_bg.png?crc=3868053100) repeat-x left top;
+}
+.find_drug h1{
+  color: #319BAC;
+}
+.find_drug p{
+  color: #989079;
+  font-size: 20px;
+}
+
+.find_drug select{
+  border: solid 1px #207e8d;
+  color: #207e8d;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  padding-left: 10px;
+  height: 50px;
+  margin-left: 10px;
+}
+.find_drug .uf{
+  width: 60px;
+} 
+.find_drug .cidade, .find_drug .bairro{
+  width: 240px;
+}
+.find_drug .btn-primary{
+  background-color: #207E8D;
+  color: white;
+}
+.find_drug .btn-primary:hover{
+  background-color: #1f5bd3;
+}

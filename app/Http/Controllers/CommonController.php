@@ -79,7 +79,7 @@ class CommonController extends Controller
 
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::buscaFarmaciasAction);
-        return view('busca_farmacias' . $this->logadoView)->with(['user' => $this->paciente, 'estado' => $estado, 'cidade' => $cidade, 'bairro' => $bairro, 'laFarmacias' => $laFarmacias, 'laEstados' => $this->fetchAllEstados()]);
+        return view('busca_farmacias')->with(['user' => $this->paciente, 'estado' => $estado, 'cidade' => $cidade, 'bairro' => $bairro, 'laFarmacias' => $laFarmacias, 'laEstados' => $this->fetchAllEstados()]);
 
     }
 
@@ -117,7 +117,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::farmaciasAction);
-        return view('farmacias' . $this->logadoView)->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados()]);
+        return view('!_find_drugstore')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados()]);
     }
 
     public function indexAction(Request $poRequest)
