@@ -9,23 +9,80 @@
     <div class="row" style="width:60%">
       <div class="col-md-6" align="left">
         <label>Name : </label>
-        <input type="text" class="form-control cad_texto" id="cad_nome" name="Nome" value="{{ trim($user->LGV_USER_NOME) }}" required placeholder="Digite seu nome" data-content-type="nome_completo">
+        <input 
+          type="text" 
+          class="form-control cad_texto" 
+          id="cad_nome" 
+          name="Nome" 
+          value="{{ trim($user->LGV_USER_NOME) }}" 
+          required 
+          placeholder="Digite seu nome" 
+          data-content-type="nome_completo"
+        >
         <br>
         <label>CPF : </label>
-        <input type="text" class="form-control cad_texto" id="cad_CPF" name="Cpf" required value="{{$user->LGV_USER_CPF}}"  maxlength="14" placeholder="Digite seu CPF" data-content-type="cpf">
+        <input 
+          type="text" 
+          class="form-control cad_texto" 
+          id="cad_CPF" 
+          name="Cpf" 
+          required 
+          value="{{$user->LGV_USER_CPF}}"  
+          maxlength="14" 
+          placeholder="Digite seu CPF" 
+          data-content-type="cpf"
+        >
         <br>
         <label>Telefone celular com DDD: : </label>
-        <input type="text" class="form-control cad_texto" id="cad_tel_celular" name="TelCelular" value="{{$user->LGV_USER_TELEFONE_CELULAR_DDD}}{{$user->LGV_USER_TELEFONE_CELULAR_NUMERO}}" maxlength="15" data-content-type='cel' required placeholder="Ex.: (11) 5501-2500" >
+        <input 
+          type="text" 
+          class="form-control cad_texto" 
+          id="cad_tel_celular" 
+          name="TelCelular" 
+          value="{{$user->LGV_USER_TELEFONE_CELULAR_DDD}}{{$user->LGV_USER_TELEFONE_CELULAR_NUMERO}}" 
+          maxlength="15" 
+          data-content-type='cel' 
+          required placeholder="Ex.: (11) 5501-2500" 
+        >
       </div>
       <div class="col-md-6" align="left">
         <label>E-mail : </label>
-        <input id="cad_email" data-content-type='email' name="Email" type="text" {{!empty(trim($user->LGV_USER_EMAIL)) ? "readonly" : "" }} value="{{trim($user->LGV_USER_EMAIL)}}" class="form-control cad_texto" required placeholder="Digite seu e-mail" data-content-type="email">
+        <input 
+          id="cad_email" 
+          data-content-type='email' 
+          name="Email" 
+          type="text"
+          value="{{trim($user->LGV_USER_EMAIL)}}"
+          class="form-control cad_texto" 
+          required 
+          placeholder="Digite seu e-mail" 
+          data-content-type="email" 
+          {{!empty(trim($user->LGV_USER_EMAIL)) ? "readonly" : "" }} 
+        >
         <br>
         <label>Data de Nascimento : </label>
-        <input type="text" class="form-control cad_texto" id="cad_dt_nascto" value="{{$user->LGV_USER_DATA_NASCIMENTO->format(\Config::get("app.DEFAULT_DATE_FORMAT")) }}" name="dtNascimento" required placeholder="Ex.: 18/04/1965" data-content-type="data">
+        <input 
+          type="text" 
+          class="form-control cad_texto" 
+          id="cad_dt_nascto" 
+          value="{{$user->LGV_USER_DATA_NASCIMENTO->format(\Config::get("app.DEFAULT_DATE_FORMAT")) }}" 
+          name="dtNascimento" 
+          required 
+          placeholder="Ex.: 18/04/1965" 
+          data-content-type="data"
+        >
         <br>
         <label>Telefone fixo com DDD : </label>
-        <input type="text" class="form-control cad_texto" id="cad_tel_fixo" value="{{$user->LGV_USER_TELEFONE_FIXO_DDD}}{{$user->LGV_USER_TELEFONE_FIXO_NUMERO}}" name="TelComercial" data-content-type='tel' required placeholder="Ex.: (11) 5501-2500">
+        <input 
+          type="text" 
+          class="form-control cad_texto" 
+          id="cad_tel_fixo" 
+          value="{{$user->LGV_USER_TELEFONE_FIXO_DDD}}{{$user->LGV_USER_TELEFONE_FIXO_NUMERO}}" 
+          name="TelComercial" 
+          data-content-type='tel' 
+          required 
+          placeholder="Ex.: (11) 5501-2500"
+        >
       </div>
     </div>
     <div class="row mt-5 mb-5" align="center">
