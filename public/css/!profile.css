@@ -22,3 +22,44 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
 .edit_profile button.btn-default:hover{
   background: linear-gradient(to bottom,#0d98ad 6%,#01584d );
 }
+
+
+.saved_profile h2{
+  color:#2DBAD1;
+}
+.saved_profile p{
+  color:grey;
+  font-size: 20px;
+}
+.saved_profile .gold_border_area{
+  border: 1px solid #BA9000;
+  margin-top: 100px;
+}
+.saved_profile .gold_border_area h2{
+  font-size: 32px;
+  color:#212F63
+}
+.saved_profile .gold_border_area .small_gold_border_area{
+  border: 1px solid #BA9000;
+  width: 45%;
+  color: #212F63;
+  margin-left: 50px;
+  margin-top:-40px;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.saved_profile .gold_border_area p{
+  color:grey;
+  font-size: 12px;
+}
+.saved_profile .gold_border_area .col-md-8 button{
+  width: 300px;
+}
+.saved_profile .gold_border_area .col-md-9 button{
+  width: 350px;
+}
+.saved_profile .gold_border_area .col-md-9 p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
