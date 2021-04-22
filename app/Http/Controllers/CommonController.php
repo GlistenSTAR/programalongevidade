@@ -140,7 +140,7 @@ class CommonController extends Controller
         return view('!_new_request')->with(['user' => $this->paciente, 'laProdutos' => $this->fetchAllProdutos(), 'laEstados' => $this->fetchAllEstados()]);
 
     }
-
+    // ????
     public function painelPessoalAction(Request $poRequest)
     {
         $this->checkIfAuthenticated();
