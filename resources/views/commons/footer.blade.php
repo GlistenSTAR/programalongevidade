@@ -34,15 +34,18 @@
                 <h1 id="u175-2">Apoio telefônico ao programa Longevidade</h1>
             </div>
             <div class="clearfix colelem" id="u26856"><!-- group -->
-                <a class="nonblock nontext clearfix grpelem shared_content" id="u187-4" href="http://www.torrent.com.br" target="_blank" title="Visite o site da Torrent do Brasil" data-IBE-flags="txtStyleSrc" data-content-guid="u187-4_content"><!-- content --><h1 id="u187-2">Site da Torrent do Brasil</h1></a>
+                <a class="nonblock nontext clearfix grpelem shared_content" id="u187-4" href="/programa" title="Visite o site da Torrent do Brasil" data-IBE-flags="txtStyleSrc" data-content-guid="u187-4_content"><!-- content -->
+                    <h1 id="u187-2">Sobre o programa</h1></a>
                 <div class="clip_frame grpelem" id="u937"><!-- image -->
                     <img class="block temp_no_img_src" id="u937_img" data-orig-src="images/home_longevidade_divisor.jpg?crc=3876958356" alt="" width="3" height="13" src="images/blank.gif?crc=4208392903"/>
                 </div>
-                <a class="nonblock nontext clearfix grpelem shared_content" id="u190-4" href="https://www.facebook.com/torrentbrasil/" target="_blank" title="Viste nossa página no Facebook" data-IBE-flags="txtStyleSrc" data-content-guid="u190-4_content"><!-- content --><h1 id="u190-2">Siga a Torrent no Facebook</h1></a>
+                <a class="nonblock nontext clearfix grpelem shared_content" id="u190-4" href="http://www.torrent.com.br/politica-de-uso-e-privacidade.php" target="_blank" title="Viste nossa página no Facebook" data-IBE-flags="txtStyleSrc" data-content-guid="u190-4_content"><!-- content -->
+                    <h1 id="u190-2">Política de privacidade</h1></a>
                 <div class="clip_frame grpelem" id="u955"><!-- image -->
                     <img class="block temp_no_img_src" id="u955_img" data-orig-src="images/home_longevidade_divisor.jpg?crc=3876958356" alt="" width="3" height="13" src="images/blank.gif?crc=4208392903"/>
                 </div>
-                <a class="nonblock nontext clearfix grpelem shared_content" id="u9416-4" href="/lgv_login" data-href="page:U17922" data-IBE-flags="txtStyleSrc" data-content-guid="u9416-4_content"><!-- content --><h1 id="u9416-2">Novas adesões</h1></a>
+                <a class="nonblock nontext clearfix grpelem shared_content" id="u9416-4" href="/regulamento" data-href="page:U17922" data-IBE-flags="txtStyleSrc" data-content-guid="u9416-4_content"><!-- content -->
+                    <h1 id="u9416-2">Regulamento do programa</h1></a>
                 <div class="clip_frame grpelem" id="u9384"><!-- image -->
                     <img class="block temp_no_img_src" id="u9384_img" data-orig-src="images/home_longevidade_divisor.jpg?crc=3876958356" alt="" width="3" height="13" src="images/blank.gif?crc=4208392903"/>
                 </div>

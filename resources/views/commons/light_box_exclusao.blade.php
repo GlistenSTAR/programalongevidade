@@ -1,13 +1,8 @@
 <div class="clearfix colelem shared_content" id="u67858-4" data-muse-uid="U67858" data-muse-type="txt_frame" data-ibe-flags="txtStyleSrc"><!-- content -->
-
-    <p>
-        Caso você queira <a href="#" id="dialog-link">excluir seu cadastro</a>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <h1 style="color: #212F63;font-weight: bold;font-size: 16px;">Para você deixar o programa Longevidade:</h1>
+    <p style="font-size: 14px;"> 
+        Em atendimento à LGPD brasileira e seguindo as normas previstas em nossa política de privacidade, você pode solicitar a exclusão definitiva do seu cadastro do site e do sistema do programa Longevidade. Seus dados serão excluídos de nosso banco de dados, portanto, não teremos mais acesso a nenhum dado pessoal seu. Esse processo é chamado de anonimização e está previsto na LGPD brasileira.<br/>
+        Caso você queira excluir seu cadastro e realizar o processo de anonimização no programa Longevidade, por favor, <a href="#" id="dialog-link"  style="color: #212F63;font-weight: bold;text-decoration: none;">clique NESTE LINK</a> e confirme a sua decisão. Uma vez que este processo seja realizado, você ainda poderá realizar novo cadastro e voltar a fazer parte do programa e usufruir dos benefícios oferecidos.   
     </p>
-
-
-{{--<button id="dialog-link" class="ui-button ui-corner-all ui-widget">--}}
-{{--    <span class="ui-icon ui-icon-newwin"></span>Open Dialog--}}
-{{--</button>--}}
 
 </div>

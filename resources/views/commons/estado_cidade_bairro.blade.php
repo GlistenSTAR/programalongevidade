@@ -1,10 +1,10 @@
 <script type = "text/javascript" >
     $(document).ready(function () {
-        var estado = $("#ufID");
+        var estado = $("#ufId");
         var cidade = $("#cidadeId");
 
         function getListaCidades() {
-            var idEstado = $("#ufID option:selected").text();
+            var idEstado = $("#ufId option:selected").text();
             $.ajax
             ({
                 url: '/api/fetchCidadesByFarmaciaEstadoAction/' + idEstado,

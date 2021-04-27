@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/css/jquery.cookiebar.css"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery.cookiebar.css" />
 <script type="text/javascript" src="/js/jquery.cookiebar.js"></script>
 <script type="text/javascript">
 
@@ -34,7 +34,7 @@
     if (getCookie('LGV_USER_LGPD') == "") {
         $.cookieBar({
             forceShow: true,
-            message: 'Utilizamos cookies e tecnologias descritas em nossos <a style="text-decoration: underline;margin:0;padding:0;" href="/politica-de-privacidade/">termos de uso e política de privacidade</a> e, ao clicar em "DE ACORDO", ou continuar navegando neste website, você concorda com essas condições.',
+            message: 'Utilizamos cookies e tecnologias descritas em nosso <a style="text-decoration: underline;margin:0;padding:0;" target="_blank" href="http://www.torrent.com.br/politica-de-uso-e-privacidade.php">termo de uso e política de privacidade</a> e, ao clicar em "DE ACORDO", ou continuar navegando neste website, você concorda com essas condições.',
             acceptButton: true,
             acceptText: 'DE ACORDO',
             acceptFunction: acceptTerms,

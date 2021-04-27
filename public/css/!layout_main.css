@@ -332,11 +332,11 @@
     width: 20%;
     align-items: left;
   }
-  .main_page_logined .gold_border_area{
+  .main_page_logined .gold_border_area, .success_order_ok .gold_border_area{
     border: 1px solid #BA9000;
     margin-top: 100px;
   }
-  .main_page_logined .gold_border_area .small_gold_border_area{
+  .main_page_logined .gold_border_area .small_gold_border_area, .success_order_ok .gold_border_area .small_gold_border_area{
     border: 1px solid #BA9000;
     width: 45%;
     color: #212F63;
@@ -346,16 +346,16 @@
     text-align: center;
     vertical-align: middle;
   }
-  .main_page_logined .gold_border_area p{
+  .main_page_logined .gold_border_area p, .success_order_ok .gold_border_area p{
     color:grey
   }
-  .main_page_logined .gold_border_area .col-md-8 button{
+  .main_page_logined .gold_border_area .col-md-8 button, .success_order_ok .gold_border_area .col-md-8 button{
     width: 300px;
   }
-  .main_page_logined .gold_border_area .col-md-9 button{
+  .main_page_logined .gold_border_area .col-md-9 button, .success_order_ok .gold_border_area .col-md-9 button{
     width: 350px;
   }
-  .main_page_logined .gold_border_area .col-md-9 p{
+  .main_page_logined .gold_border_area .col-md-9 p, .success_order_ok .gold_border_area .col-md-9 p{
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -370,4 +370,32 @@
   }
   .delete_account_content a:hover{
     color: #2DBAD1!important;
+  }
+
+  .green_dot_line {
+    opacity: 1;
+    height: 5px;
+    background: transparent url(../images/pontilhado_bg.png?crc=3868053100) repeat-x left top;
+  }
+
+
+  .error_page .blue_box{
+    height: 70px;
+    background-color: rgba(45,186,209,0.55);
+    border-bottom: 10px solid #2DBAD1;
+    color:white;
+    margin-top: 0;
+  }
+  .error_page .blue_box h1{
+   padding-top: 10px; 
+  }
+  .error_page .background{
+    background-color: #E7F0F5;
+  }
+  .error_page h2,.error_page p {
+    color: #223163
+  }
+  .error_page p{
+    font-size: 15px;
+    width: 80%;
   }

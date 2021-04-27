@@ -21,12 +21,12 @@ Route::post('/busca_farmacias','CommonController@buscaFarmaciasAction');
 Route::get('/busca_farmacias','CommonController@farmaciasAction');
 Route::post('/cadastro_adesao','CommonController@cadastroAdesaoAction');
 Route::get('/cadastro_adesao','CommonController@cadastroAdesaoAction');
-Route::post('/submits/post_cadastro_adesao','UserManagementController@cadastroAdesaoPostAction');
-Route::get('/submits/post_cadastro_adesao','CommonController@cadastroAdesaoAction');
+Route::post('/submits/post_cadastro_adesao','UserManagementController@cadastroAdesaoPostAction'); ////??????
+Route::get('/submits/post_cadastro_adesao','CommonController@cadastroAdesaoAction');              ////??????
 Route::get('/fale_conosco', 'CommonController@faleConoscoAction');
 Route::get('/fale_conosco_ok','CommonController@faleConoscoOkAction')->name('fale_conosco_ok'); 
-Route::post('/submits/post_fale_conosco','FaleConoscoController@faleConoscoPostAction');
-Route::get('/submits/post_fale_conosco','CommonController@faleConoscoAction');
+Route::post('/submits/post_fale_conosco','FaleConoscoController@faleConoscoPostAction');          ////??????
+Route::get('/submits/post_fale_conosco','CommonController@faleConoscoAction');                    ////??????
 Route::get('/farmacias','CommonController@farmaciasAction');
 Route::get('/lgv_login','CommonController@loginAction');
 Route::get('/nova_requisicao','CommonController@novaRequisicaoAction')->middleware('auth');
@@ -54,7 +54,7 @@ Route::get('/api/fetchFarmaciasByBairro/{cidade}/{bairro}','ApiController@fetchF
 Route::post('/api/consultaCadastro','SevenPDVController@consultaCadastroAction');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', 'HomeController@test')->name('test');
 Route::get('/test_exclusao', 'HomeController@test_exclusao')->name('test_exclusao');
 //Errors

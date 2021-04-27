@@ -140,13 +140,12 @@ class CommonController extends Controller
         return view('!_new_request')->with(['user' => $this->paciente, 'laProdutos' => $this->fetchAllProdutos(), 'laEstados' => $this->fetchAllEstados()]);
 
     }
-    // ????
+    
     public function painelPessoalAction(Request $poRequest)
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::painelPessoalAction);
-        return view('painel_pessoal')->with('user', $this->paciente);
-
+        return view('!_index')->with('user', $this->paciente);
     }
 
     public function posCadastroAdesaoOkAction(Request $poRequest)
@@ -169,7 +168,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::produtosAction);
-        return view('produtos')->with('user', $this->paciente);
+        return view('!_product')->with('user', $this->paciente);
 
     }
 
@@ -177,7 +176,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::programaAction);
-        return view('programa')->with('user', $this->paciente);
+        return view('!_program')->with('user', $this->paciente);
 
     }
 
@@ -185,7 +184,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::regulamentoAction);
-        return view('regulamento')->with('user', $this->paciente);
+        return view('!_policy')->with('user', $this->paciente);
 
     }
 
@@ -194,7 +193,6 @@ class CommonController extends Controller
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::sobreAction);
         return view('!_about_us')->with('user', $this->paciente);
-
     }
 
     public function logoutAction()
@@ -208,7 +206,7 @@ class CommonController extends Controller
     public function err500Action(Request $poRequest) {
 
         $this->checkIfAuthenticated();
-        return view('err_500')->with(['user' => $this->paciente, 'err_msg' => session('err_msg')]);
+        return view('!_err_500')->with(['user' => $this->paciente, 'err_msg' => session('err_msg')]);
     }
 
     private function fetchAllEstados()

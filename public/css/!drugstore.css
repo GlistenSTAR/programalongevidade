@@ -24,11 +24,6 @@
   padding-left: 100px;
   font-weight: bold;
 }
-.green_dot_line {
-    opacity: 1;
-    height: 5px;
-    background: transparent url(../images/pontilhado_bg.png?crc=3868053100) repeat-x left top;
-}
 .find_drug h1{
   color: #319BAC;
 }

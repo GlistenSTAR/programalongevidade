@@ -1,0 +1,122 @@
+.li,.p,.div,.h1,.h2,.h3,.h4,.h5,.h6,.a{
+  font-family: 'Questrial', sans-serif;
+}
+.program .background{
+  height: 344px;
+  background-image: url(../images/chamada_o_programa.jpg?crc=436379603);
+  position: relative;
+  background-size: cover;
+}
+.program .background .faca{
+  background-color: rgba(45,186,209,0.55);
+  height: 100px;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+.program .background .faca_letter{
+  color:white;
+  font-size: 70px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  padding-left: 200px;
+  font-weight: bold;
+}
+.program h1{
+  color: #319BAC;
+}
+.program p{
+  font-size: 20px;
+  color: #989079;
+  line-height: 1.5;
+}
+.program .odd_ground{
+  background-color: #E7F0F5;
+  color: #2E3192;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.program .odd_ground h4{
+  width: 60%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.program .blue_border{
+  border: 1px solid #2E3192;
+  width: 246px;
+  font-size: 30px;
+  position: absolute;
+  top:0;
+  align-items: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -35px;
+}
+.program .badge-primary{
+  background-color: #223163; 
+  border-radius:50%; 
+  font-size:34px;
+  width: 50px;
+  height: 50px;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-left:10px;
+  margin-right:20px;
+  padding-top: 10px;
+}
+.program .odd_ground a{
+  font-size: 16px;
+  color:black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.program .normal label{
+  font-size: 20px;
+  color:#989079
+}
+
+.accordion {
+  background-color:#49B6C7;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin-bottom: 2px;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #319BAC;
+}
+.active{
+  font-size: 24px;
+  background-color:#2E3192;
+  transition: 0.5s;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {  
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  transition: 0.3s;
+  font-size: 18px;
+  transition: 1s;
+}
+.program .accordian_area{
+  border: 5px solid #49B6C7;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 10px;
+  padding:2px;
+}

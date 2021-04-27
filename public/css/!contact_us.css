@@ -85,10 +85,6 @@
   width: 100%;
   padding-left: 200px;
 }
-.dot_line{
-  height: 10px;
-  background: transparent url(../images/pontilhado_bg.png?crc=3868053100) repeat-x left top;
-}
 .about_us p{
   font-size: 20px;
   color:grey;

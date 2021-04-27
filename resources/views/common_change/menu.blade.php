@@ -23,7 +23,7 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav">
-          <a href="/sobre"><li class="active"><b>Sobre <br>a Torrent</b></li></a>
+          <a href="/sobre"><li><b>Sobre <br>a Torrent</b></li></a>
           <a href="/programa"><li><b>Sobre <br>o Programa</b></li></a>
           <a href="/produtos"><li><b>Produtos <br>participantes</b></li></a>
           <a href="/farmacias"><li><b>Onde comprar <br>os produtos</b></li></a>

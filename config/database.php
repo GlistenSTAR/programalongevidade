@@ -69,11 +69,11 @@ return [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', 'DESKTOP-FVE5IOL\SQLEXPRESS'),
+            'host' => env('DB_HOST', '186.202.148.154'),
             'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'programalongevidade'),
-            'username' => env('DB_USERNAME', 'sa'),
-            'password' => env('DB_PASSWORD', '123456789'),
+            'database' => env('DB_DATABASE', 'itaniocorp_general'),
+            'username' => env('DB_USERNAME', 'itaniocorp_general'),
+            'password' => env('DB_PASSWORD', 'xrfA4x6Pt@3G*'),
             'charset' => 'utf8',
             'collation' => 'utf8_general_ci',
             'prefix' => '',

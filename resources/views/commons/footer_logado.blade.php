@@ -33,15 +33,18 @@
             <h1 id="u28320-2">Apoio telefônico ao programa Longevidade</h1>
         </div>
         <div class="clearfix colelem" id="u28327"><!-- group -->
-            <a class="nonblock nontext clearfix grpelem shared_content" id="u28334-4" href="http://www.torrent.com.br" target="_blank" title="Visite o site da Torrent do Brasil" data-ibe-flags="txtStyleSrc" data-content-guid="u28334-4_content"><!-- content --><h1 id="u28334-2">Site da Torrent do Brasil</h1></a>
+            <a class="nonblock nontext clearfix grpelem shared_content" id="u28334-4" href="/programa" title="Visite o site da Torrent do Brasil" data-ibe-flags="txtStyleSrc" data-content-guid="u28334-4_content"><!-- content -->
+                <h1 id="u28334-2">Sobre o programa</h1></a>
             <div class="clip_frame grpelem" id="u28328"><!-- image -->
                 <img class="block" id="u28328_img" alt="" width="3" height="13" src="images/home_longevidade_divisor.jpg?crc=3876958356">
             </div>
-            <a class="nonblock nontext clearfix grpelem shared_content" id="u28332-4" href="https://www.facebook.com/torrentbrasil/" target="_blank" title="Viste nossa página no Facebook" data-ibe-flags="txtStyleSrc" data-content-guid="u28332-4_content"><!-- content --><h1 id="u28332-2">Siga a Torrent no Facebook</h1></a>
+            <a class="nonblock nontext clearfix grpelem shared_content" id="u28332-4" href="http://www.torrent.com.br/politica-de-uso-e-privacidade.php" target="_blank" title="Viste nossa página no Facebook" data-ibe-flags="txtStyleSrc" data-content-guid="u28332-4_content"><!-- content -->
+                <h1 id="u28332-2">Política de privacidade</h1></a>
             <div class="clip_frame grpelem" id="u28330"><!-- image -->
                 <img class="block" id="u28330_img" alt="" width="3" height="13" src="images/home_longevidade_divisor.jpg?crc=3876958356">
             </div>
-            <a class="nonblock nontext clearfix grpelem shared_content" id="u28335-4" href="/nova_requisicao" data-href="page:U17922" data-ibe-flags="txtStyleSrc" data-content-guid="u28335-4_content"><!-- content --><h1 id="u28335-2">Novas adesões</h1></a>
+            <a class="nonblock nontext clearfix grpelem shared_content" id="u28335-4" href="/regulamento" data-href="page:U17922" data-ibe-flags="txtStyleSrc" data-content-guid="u28335-4_content"><!-- content -->
+                <h1 id="u28335-2">Regulamento do programa</h1></a>
             <div class="clip_frame grpelem" id="u28336"><!-- image -->
                 <img class="block" id="u28336_img" alt="" width="3" height="13" src="images/home_longevidade_divisor.jpg?crc=3876958356">
             </div>

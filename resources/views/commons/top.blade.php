@@ -1,4 +1,4 @@
-<div class="clearfix" id="pu8153"><!-- group -->
+<div class="clearfix grpelem" id="pu8153"><!-- group -->
     <div class="browser_width mse_pre_init" id="u8153-bw">
         <div id="u8153"><!-- simple frame --></div>
     </div>
