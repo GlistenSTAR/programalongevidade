@@ -30,6 +30,4 @@ interface ISevenPDVServicesCAD
      * @return CommonObjectResponse
      */
     public function updateUser(UserManagementRequest $request);
-
-
 }

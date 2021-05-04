@@ -111,7 +111,6 @@
           });
 
           $("#find_dragstore").on("click", function (event) {
-                // console.log("2");
                 event.preventDefault();
                 if (validateForm(null, $('select'), null)) {
                     var form = generateForm('/busca_farmacias', 'POST', '{{csrf_token()}}', null, $('select'), null);
