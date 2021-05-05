@@ -30,7 +30,17 @@
           </P>
         </div>
         <div class="col-md-2" align="center">
-          <img src="images/mapa_acessa_farmacia.png?crc=87601278"><p>Veja no mapa esse endereço</p>
+          <a 
+            class="nonblock nontext clip_frame colelem" 
+            id="u26077" 
+            href="https://www.google.com.br/maps/search/{{$farmacia->LGV_FARMACIA_ENDERECO_LOGRADOURO}}+{{str_replace(' ', '+', $farmacia->LGV_FARMACIA_ENDERECO)}}+{{$farmacia->LGV_FARMACIA_ENDERECO_NUMERO}}+-+{{str_replace(' ', '+', $farmacia->LGV_FARMACIA_CIDADE)}}+-+{{$farmacia->LGV_FARMACIA_UF}}+-+{{$farmacia->LGV_FARMACIA_ENDERECO_CEP}}" 
+            target="_blank" 
+            data-muse-uid="U26077" 
+            data-muse-type="img_frame"
+            style="text-decoration: none;"
+          >
+            <img src="images/mapa_acessa_farmacia.png?crc=87601278"><p>Veja no mapa esse endereço</p>
+          </a>  
         </div>
       </div>
       @endforeach
@@ -71,10 +81,10 @@
     <!-- <div class="green_dot_line"></div> -->
     </div>
   </div>
+  <script type="text/javascript" src="/js/form_control.js"></script>
   @include("commons.estado_cidade_bairro")
     <script>
         $(document).ready(function () {
-
           $("#find_dragstore").on("click", function (event) {
                 // console.log("2");
                 event.preventDefault();

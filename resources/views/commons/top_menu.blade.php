@@ -1,7 +1,0 @@
-<div class="clearfix grpelem" id="u5127"><!-- group -->
-    <a class="nonblock nontext MuseLinkActive clip_frame grpelem" id="u3095" href="/" data-href="page:U93"><!-- image --><img class="block temp_no_img_src" id="u3095_img" data-orig-src="images/home-longevidade-log.jpg?crc=259478626" alt="" width="390" height="88" src="images/blank.gif?crc=4208392903"/></a>
-    <a class="nonblock nontext transition clearfix grpelem shared_content" id="u2112-6" href="/sobre" data-href="page:U1301" title="Conheça a Torrent do Brasil" data-content-guid="u2112-6_content"><!-- content --><h1 id="u2112-2"><span class="ts-menu" id="u2112">Sobre</span></h1><h1 id="u2112-4"><span class="ts-menu" id="u2112-3">a Torrent</span></h1></a>
-    <a class="nonblock nontext transition clearfix grpelem shared_content" id="u145-6" href="/programa" data-href="page:U1419" data-content-guid="u145-6_content"><!-- content --><h1 id="u145-2"><span class="ts-menu" id="u145">Sobre</span></h1><h1 id="u145-4"><span class="ts-menu" id="u145-3">o programa</span></h1></a>
-    <a class="nonblock nontext transition clearfix grpelem shared_content" id="u150-6" href="/produtos" data-href="page:U1525" data-content-guid="u150-6_content"><!-- content --><h1 id="u150-2">Produtos</h1><h1 id="u150-4">participantes</h1></a>
-    <a class="nonblock nontext transition clearfix grpelem shared_content" id="u153-6" href="/farmacias" data-href="page:U1631" data-content-guid="u153-6_content"><!-- content --><h1 id="u153-2">Onde comprar</h1><h1 id="u153-4">os produtos</h1></a>
-</div>

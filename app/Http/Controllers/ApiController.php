@@ -39,7 +39,6 @@ class ApiController extends Controller
 
         }
 
-
         return $laCidades;
 
     }
