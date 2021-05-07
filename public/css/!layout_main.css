@@ -1,8 +1,10 @@
+  html{
+    overflow-x: hidden;
+  }
   h1, span, li, button, p {
     font-family: 'Questrial', sans-serif;
   };
   body{
-    overflow-x: hidden;
     width: 100%;
   }
   #accordionu2299-bw {
@@ -190,6 +192,7 @@
   .register .heading{
     position: absolute;
     background: #49B6C7 url(../images/home_barra_divisora.gif?crc=517256253) no-repeat left top;
+    background-size: 100% auto;
     font-size: 34px;
     color: white;
     width: 58%;
