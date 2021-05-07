@@ -3,7 +3,9 @@
   <link rel="stylesheet" type="text/css" href="css/!contact_us.css"/>
   <div class="container_fluid contact_us">
     <div class="background"><div class="faca"></div>
-      <p class="faca_letter"><b>Faça contato</b></p>
+      <div class="container">
+        <p class="faca_letter"><b>Faça contato</b></p>
+      </div>
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0">
     <div class="container">

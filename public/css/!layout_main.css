@@ -350,7 +350,7 @@
     vertical-align: middle;
   }
   .main_page_logined .gold_border_area p, .success_order_ok .gold_border_area p{
-    color:grey
+    color:#989079
   }
   .main_page_logined .gold_border_area .col-md-8 button, .success_order_ok .gold_border_area .col-md-8 button{
     width: 300px;

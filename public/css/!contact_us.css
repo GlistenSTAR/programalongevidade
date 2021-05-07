@@ -3,10 +3,11 @@
 }
 .contact_us .background{
   z-index: 97;
-    height: 344px;
-    background-image: url(../images/chamada_contato.jpg?crc=4233459651);
-    position: relative;
-    background-size: cover;
+  height: 344px;
+  background-image: url(../images/chamada_contato.jpg?crc=4233459651);
+  position: relative;
+  background-size: cover;
+  margin-top: 22px;
 }
 .contact_us .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -22,13 +23,12 @@
   position: absolute;
   bottom: 10%;
   width: 100%;
-  padding-left: 100px;
 }
 .contact_us h2{
   color:#2DBAD1;
 }
 .contact_us p{
-  color:grey;
+  color:#989079;
   font-size: 18px;
 }
 .contact_us .left{
@@ -87,7 +87,7 @@
 }
 .about_us p{
   font-size: 20px;
-  color:grey;
+  color:#989079;
   padding-top: 10px;
 }
 .about_us .grey_background{
@@ -99,7 +99,7 @@
   border-radius: 5px;
   position: relative;
   margin:50px;
-  color: grey;
+  color: #989079;
   font-size: 18px;
 }
 .about_us .s_green_button{
@@ -133,7 +133,7 @@
   width: 100%;
 }
 .about_us label{
-  color:grey;
+  color:#989079;
   font-size: 28px;
 }
 .contact_us_ok div{

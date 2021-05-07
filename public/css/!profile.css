@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
   font-size: 38px;
 }
 .edit_profile p{
-  color:grey;
+  color:#989079;
   font-size: 18px;
 }
 .edit_profile label{
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
   color:#2DBAD1;
 }
 .saved_profile p{
-  color:grey;
+  color:#989079;
   font-size: 20px;
 }
 .saved_profile .gold_border_area{
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
   vertical-align: middle;
 }
 .saved_profile .gold_border_area p{
-  color:grey;
+  color:#989079;
   font-size: 12px;
 }
 .saved_profile .gold_border_area .col-md-8 button{
