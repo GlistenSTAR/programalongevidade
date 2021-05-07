@@ -4,7 +4,9 @@
 
 <div class="container_fluid program">
   <div class="background"><div class="faca"></div>
-    <p class="faca_letter"><b>Conheça o Longevidade</b></p>
+    <div class="container">
+      <p class="faca_letter"><b>Conheça o Longevidade</b></p>
+    </div>
   </div>
   <hr style="border-top:35px solid #2DBAD1; margin-top:0; margin-bottom:5px">
   <div class="green_dot_line"></div>
@@ -13,7 +15,7 @@
       <p>O Programa Longevidade é um programa de relacionamento com dicas e serviços que serão úteis para seu tratamento, fornecendo inclusive, descontos na compra de alguns medicamentos da Torrent Pharma prescritos pelo seu médico. Você ainda poderá obter informações sobre saúde e qualidade de vida neste site. É muito simples fazer parte deste programa, veja como funciona.</p>
     </div>
   </div>
-  <div class="dot_line"></div>
+  <div class="dot_line"></div> 
   <div class="odd_ground" align="center">
     <div align="center" style="width:246px;">
       <div class="blue_border">ETAPA<span class="badge badge-primary">01</span></div>

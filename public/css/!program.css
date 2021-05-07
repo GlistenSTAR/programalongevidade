@@ -6,6 +6,7 @@
   background-image: url(../images/chamada_o_programa.jpg?crc=436379603);
   position: relative;
   background-size: cover;
+  margin-top: 22px;
 }
 .program .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -21,7 +22,6 @@
   position: absolute;
   bottom: 5%;
   width: 100%;
-  padding-left: 200px;
   font-weight: bold;
 }
 .program h1{
