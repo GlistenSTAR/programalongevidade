@@ -6,6 +6,7 @@
   background-image: url(../images/chamada_cadastro.jpg?crc=4193824423);
   position: relative;
   background-size: cover;
+  margin-top: 22px;
 }
 .policy .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -21,7 +22,6 @@
   position: absolute;
   bottom: 5%;
   width: 100%;
-  padding-left: 100px;
   font-weight: bold;
 }
 .policy .heading{

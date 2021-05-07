@@ -4,7 +4,9 @@
 
 <div class="container_fluid policy">
   <div class="background"><div class="faca"></div>
-    <p class="faca_letter"><b>Regulamento do programa</b></p>
+    <div class="container">
+      <p class="faca_letter"><b>Regulamento do programa</b></p>
+    </div>
   </div>
   <hr style="border-top:40px solid #2DBAD1; margin-top:0; margin-bottom:5px">
   <div class="container content" align="center">
