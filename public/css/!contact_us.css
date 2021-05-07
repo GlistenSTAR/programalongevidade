@@ -68,6 +68,7 @@
   background-image: url(../images/chamada_sobre.jpg?crc=489893363);
   background-size: cover;
   position: relative;
+  margin-top: 22px;
 }
 .about_us .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -81,9 +82,8 @@
   font-size: 52px;
   padding-top: 50px;
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   width: 100%;
-  padding-left: 200px;
 }
 .about_us p{
   font-size: 20px;
@@ -131,7 +131,6 @@
   position: absolute;
   bottom: 5%;
   width: 100%;
-  padding-left: 200px;
 }
 .about_us label{
   color:grey;

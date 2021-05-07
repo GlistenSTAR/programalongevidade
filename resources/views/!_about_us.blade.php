@@ -4,7 +4,9 @@
 
   <div class="container_fluid about_us">
     <div class="background"><div class="faca"></div>
-      <p class="faca_letter mt-5"><b>Sobre a Torrent</b></p>
+      <div class="container">
+        <p class="faca_letter mt-5"><b>Sobre a Torrent</b></p>
+      </div>
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0; margin-bottom:10px">
     <div class="dot_line"></div>
@@ -42,7 +44,9 @@
       A Torrent conta ainda com profissionais altamente qualificados no setor de armazenagem e distribuição dos medicamentos, para dar continuidade ao processo de inbound dos produtos importados da Índia.</p>
     </div>
     <div class="background_1"><div class="faca"></div>
-      <p class="faca_letter mt-5"><b>Estrutura</b></p>
+      <div class="container">
+        <p class="faca_letter mt-5"><b>Estrutura</b></p>
+      </div>
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0; margin-bottom:10px">
     <div style="background-color: white">
