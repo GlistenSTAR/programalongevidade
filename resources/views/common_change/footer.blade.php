@@ -19,14 +19,14 @@
             </div>
           </div>
         </div>
-        <div class="col-md-5 offset-md-1" style="padding-top:-10px">
+        <div class="col-md-5 offset-md-1" style="padding-top:-10px; color: #233164">
           <h4><b>Se você tiver dúvidas sobre como ingressar no programa e precisar falar conosco</b></h4>
           <i class="fa fa-phone m-3" style="font-size:28px; color: #2DBAD1"><span class="ml-3" style="color: #2DBAD1">0800 333 1234</span></i>
-          <p><b>Apoio telefônico ao programa Longevidade</b></p>
+          <p style="color: #233164"><b>Apoio telefônico ao programa Longevidade</b></p>
         </div>
       </div>
       <div class="row second m-4">
-        <p align="center">
+        <p align="center" style="font-size: 13px">
           <a href="http://www.torrent.com.br" title="Visite o site da Torrent do Brasil"><span>Site da Torrent do Brasil </span></a><span class="color"> | </span>
           <a href="https://www.facebook.com/torrentbrasil/" title="Viste nossa página no Facebook"><span> Siga a Torrent no Facebook </span></a><span class="color"> | </span>
           <a href="/regulamento"><span> Novas adesões </span></a><span class="color"> | </span>

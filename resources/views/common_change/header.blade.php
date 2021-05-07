@@ -76,7 +76,7 @@
             <div class="col-md-2 mt-1" style="padding-left:0px;padding-right:0px">
                     <ul class="mb-0 header_third_part">
                         <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
-                        <li><a href="http://www.torrent.com.br"><b>VISITE O SITE DA TORRENT</b></a></li>
+                        <li><a href="http://www.torrent.com.br" target="_blank"><b>VISITE O SITE DA TORRENT</b></a></li>
                         <li><a href="/nova_requisicao"><b>NOVO PEDIDO</b></a></li>
                     </ul>
             </div>
@@ -174,7 +174,7 @@
                 <div class="col-md-2 mt-1" style="padding-left:0px;padding-right:0px">
                         <ul class="mb-0 header_third_part">
                             <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
-                            <li><a href="http://www.torrent.com.br"><b>VISITE O SITE DA TORRENT</b></a></li>
+                            <li><a href="http://www.torrent.com.br" target="_blank"><b>VISITE O SITE DA TORRENT</b></a></li>
                             <li><a href="/nova_requisicao"><b>NOVO PEDIDO</b></a></li>
                         </ul>
                 </div>
