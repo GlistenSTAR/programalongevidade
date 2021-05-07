@@ -4,7 +4,9 @@
 
   <div class="container_fluid find_drug">
     <div class="background"><div class="faca"></div>
-      <p class="faca_letter mt-5"><b>Onde nos encontrar</b></p>
+      <div class="container">
+        <p class="faca_letter mt-5"><b>Onde nos encontrar</b></p>
+      </div>
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0; margin-bottom:10px">
     <div class="green_dot_line"></div>

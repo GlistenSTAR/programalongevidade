@@ -4,8 +4,9 @@
 .find_drug .background{
   height: 344px;
   background-image: url(../images/chamada_farmacias.jpg?crc=323513180);
-    position: relative;
-    background-size: cover;
+  position: relative;
+  background-size: cover;
+  margin-top: 22px;
 }
 .find_drug .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -21,7 +22,6 @@
   position: absolute;
   bottom: 5%;
   width: 100%;
-  padding-left: 100px;
   font-weight: bold;
 }
 .find_drug h1{
@@ -61,6 +61,7 @@
   background-image: url(../images/chamada_farmacias.jpg?crc=323513180);
   height: 230px;
   position: relative;
+  margin-top: 22px;
 }
 .position_drugstore .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -76,7 +77,6 @@
   position: absolute;
   bottom: 5%;
   width: 100%;
-  padding-left: 100px;
   font-weight: bold;
 }
 .position_drugstore h2{
