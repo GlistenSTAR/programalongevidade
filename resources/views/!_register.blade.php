@@ -108,7 +108,6 @@
   <script type="text/javascript">
       $(document).ready(function() {
 
-
           $("#submit_request").on("click", function(event){
 
               var blockDiv = document.createElement('div');
@@ -117,19 +116,15 @@
               $(event.currentTarget).parent().css({'position' : 'relative'});
               $(event.currentTarget).parent().append(blockDiv);
 
-
               event.preventDefault();
 
               if (!$("#aceito_regulamento")[0].checked) {
-
                   alert("É necessário concordar com as cláusulas do contrato.");
                   $(event.currentTarget).parent().css({'position' : 'static'});
                   $(blockDiv).remove();
-
               } else {
-
                   if (validateForm($('input'), $('select'), null)) {
-
+                    
                       $("#submit_request").on("click", function(event){});
                       $("#submit_request").text("Aguarde...");
 

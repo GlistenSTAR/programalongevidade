@@ -2,7 +2,7 @@
     font-family: 'Questrial', sans-serif;
   };
   body{
-    overflow-x: hidden!important;
+    overflow-x: hidden;
     width: 100%;
   }
   #accordionu2299-bw {
@@ -12,7 +12,7 @@
   .header{
     background-color: #319BAC;
     z-index: 168;
-    min-height: 83px;
+    min-height: 98px;
     padding-bottom: 13px;
   }
   
@@ -24,7 +24,7 @@
   }
   .header #u8153-bw {
     z-index: 168;
-    min-height: 83px;
+    min-height: 96px;
     left: 0px;
     margin-left: 0px;
   }
@@ -67,7 +67,7 @@
     position: absolute;
     top:0;
     left: 0;
-    height:150px;
+    height:170px;
     width: 100%;
     margin-top:100px;
   }

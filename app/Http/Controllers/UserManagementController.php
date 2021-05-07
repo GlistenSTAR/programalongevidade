@@ -187,13 +187,11 @@ class UserManagementController extends Controller
      */
     public function cadastroAdesaoPostAction(Request $poRequest)
     {
-
         $loPaciente = new Paciente();
         $loMedico = new Medico();
-
+        
         $loDate = Carbon::now()->setTimezone(Config::get("app.DEFAULT_TIMEZONE"));
         $lsDate = $loDate->format(Config::get("app.DEFAULT_WSDL_DATE_TIME_FORMAT"));
-
         $response = new CommonObjectResponse();
 
         if (PacienteModelConverter::requestToModel($poRequest, $loPaciente) && MedicoModelConverter::requestToModel($poRequest, $loMedico)) {
@@ -230,6 +228,7 @@ class UserManagementController extends Controller
             $loResponse = $this->userManagementCAN->fetchUserByCPF($loUserManagementRequest);
 
             if ($loResponse->getisOperationSuccess() && (!empty($loResponse->getObject()) && !empty($loResponse->getObject()->LGV_USER_STATUS))) {
+                // print_r($lsDate);die;
 
                 throw new \Exception('Verificamos que o CPF que você informou no processo de cadastro (CPF informado: '.$loUserManagementRequest->getCpf().') já está sendo utilizado. Tente efetuar novamente o seu cadastro nos informando um CPF diferente, ou então acesse a página de login e nos informe, além do seu CPF, também a sua data de nascimento.');
 
@@ -242,7 +241,7 @@ class UserManagementController extends Controller
 
                     $userToUpdate->LGV_USER_LGPD_ANONIMIZACAO_DATA = '';
                     $userToUpdate->LGV_USER_NOME = $sourceUser->LGV_USER_NOME;
-//                    $userToUpdate->LGV_USER_DATA_NASCIMENTO = $sourceUser->LGV_USER_DATA_NASCIMENTO;
+                    $userToUpdate->LGV_USER_DATA_NASCIMENTO = $sourceUser->LGV_USER_DATA_NASCIMENTO;
                     $userToUpdate->LGV_USER_SEXO = $sourceUser->LGV_USER_SEXO;
                     $userToUpdate->LGV_USER_EMAIL = $sourceUser->LGV_USER_EMAIL;
                     $userToUpdate->LGV_USER_SENHA = $sourceUser->LGV_USER_SENHA;

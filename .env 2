@@ -1,24 +1,24 @@
 APP_NAME="Longevidade"
-APP_ENV="local"
+APP_ENV=development
 APP_KEY="base64:5VCDqmosrfCazA7tOP+VXWiEbfKHeu7HIdotHVJrZM0="
 APP_DEBUG="true"
 APP_URL="http://localhost"
 
 LOG_CHANNEL="stack"
 
-#DB_CONNECTION="sqlsrv"
+#DB_CONNECTION=sqlsrv
 #DB_HOST="programalongevidade.cjmdkmwwfabw.sa-east-1.rds.amazonaws.com"
 #DB_PORT="1433"
 #DB_DATABASE="programalongevidade"
 #DB_USERNAME="adminpgrlongevidade"
 #DB_PASSWORD="K7LcWHYrN9uB"
 
-DB_CONNECTION="sqlsrv"
-DB_HOST="localhost"
-DB_PORT="1433"
-DB_DATABASE="longevidade"
-DB_USERNAME="SA"
-DB_PASSWORD="q4tmsSQL!#"
+DB_CONNECTION=sqlsrv
+DB_HOST=192.168.108.149
+DB_PORT=1433
+DB_DATABASE=programalongevidade
+DB_USERNAME=sa
+DB_PASSWORD=123456789
 
 #DB_CONNECTION="sqlsrv"
 #DB_HOST="179.188.42.132"

@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 /*
 |--------------------------------------------------------------------------
@@ -11,7 +11,7 @@
 |
 */
 
-
+ 
 Route::get('/','CommonController@indexAction');
 Route::get('/altera_dados_ok','CommonController@alteraDadosOkAction')->middleware('auth');
 Route::get('/altera_dados_pessoais','CommonController@alteraDadosPessoaisAction')->middleware('auth');

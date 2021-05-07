@@ -150,6 +150,7 @@ class CommonController extends Controller
 
     public function posCadastroAdesaoOkAction(Request $poRequest)
     {
+        print_r(session(['authUser']));die;
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::posCadastroAdesaoOKAction);
         return view('!_sucesse_register')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);

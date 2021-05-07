@@ -15,6 +15,7 @@
           </div>
           <div class="col-md-7" align="center">
             <h2>Por alguma razão técnica não<br> conseguimos processar a sua solicitação.</h2>
+            <p>{{ $err_msg }}</p>
             <p>Veja abaixo o erro que encontramos, e quando fizer contato com a nossa equipe técnica, por favor, mencione a mensagem abaixo:</p>
           </div>
         </div>

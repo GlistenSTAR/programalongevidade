@@ -3,7 +3,7 @@
 <script type="text/javascript" src="/js/form_control.js"></script>
 <link rel="stylesheet" type="text/css" href="css/!layout_main.css"/>
 @if(!Auth::check())
-    <div class="header" style="position: fixed; width:100%">
+    <div class="header" style="position: fixed; width:100%; overflow-x: hidden!important;">
         <div class="container">
             <div class="row pt-3" style="color:white; font-size:12px;padding-right:0px">
             <div class="col-md-5" style="padding-right:0">
@@ -12,7 +12,7 @@
                     <form name="FormCadastro" action="/cadastro_adesao" method="post" id="FormCadastro">
                         {{ csrf_field() }}
                         <i class="fas fa-angle-right" style="font-size:30px">
-                        <span style="font-size:13px; vertical-align:middle"><b>AINDA NÃO É CADASTRADO ?</b></span>
+                            <span style="font-size:13px; vertical-align:middle"><b>AINDA NÃO É CADASTRADO ?</b></span>
                         </i>
                         <input 
                             type="text" 
@@ -83,6 +83,7 @@
             </div>
         </div>
     </div>
+    
     <script type="text/javascript">
         $(document).ready(function() {
             @php
