@@ -6,13 +6,14 @@
   background-image: url(../images/chamada_produtos.jpg?crc=334911775);
   position: relative;
   background-size: cover;
+  margin-top: 22px;
 }
 .product .background .faca{
   background-color: rgba(45,186,209,0.55);
   height: 70px;
   position: absolute;
   bottom: 10%;
-  width: 100%;
+  width: 100%; 
 }
 .product .background .faca_letter{
   color:white;
@@ -21,7 +22,6 @@
   position: absolute;
   bottom: 5%;
   width: 100%;
-  padding-left: 100px;
   font-weight: bold;
 }
 .product h1{

@@ -33,7 +33,7 @@
           <a href="/fale_conosco"><span>Fale conosco</span></a>
         </p>
       </div>
-      <div class="row m-3">
+      <div class="row m-3 mb-5">
         <div class="col-md-5">
           <h5>Torrent do Brasil © - Todos os direitos reservados</h5>
           <span>Os conteúdos publicados nesse site não podem ser reproduzidos sem a prévia autorização da Torrent do Brasil.</span>

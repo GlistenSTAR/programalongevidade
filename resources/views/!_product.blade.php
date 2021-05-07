@@ -4,7 +4,9 @@
 
   <div class="container_fluid product">
     <div class="background"><div class="faca"></div>
-      <p class="faca_letter"><b>Produtos participantes</b></p>
+      <div class="container">
+        <p class="faca_letter"><b>Produtos participantes</b></p>
+      </div>
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0; margin-bottom:5px">
     <div class="green_dot_line"></div>
