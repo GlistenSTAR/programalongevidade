@@ -148,7 +148,7 @@
                             </i>
                             <p style="font-size:18px; vertical-align:middle;">
                                 <b>{{Auth::user()->name}}</b>
-                                <!-- {{$user->LGV_USER_NOME}} -->
+                                {{-- <!-- {{$user->LGV_USER_NOME}} --> --}}
                             </p>
                         </div>
                     <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">

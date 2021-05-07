@@ -4,7 +4,9 @@
   
   <div class="container_fluid contact_us">
     <div class="background"><div class="faca"></div>
-      <p class="faca_letter"><b>Mensagem recebida!</b></p>
+      <div class="container">
+        <p class="faca_letter"><b>Mensagem recebida!</b></p>
+      </div>
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0">
     <div class="container contact_us_ok mb-5"  align="center">

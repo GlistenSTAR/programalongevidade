@@ -31,7 +31,7 @@ Route::get('/farmacias','CommonController@farmaciasAction');
 Route::get('/lgv_login','CommonController@loginAction');
 Route::get('/nova_requisicao','CommonController@novaRequisicaoAction')->middleware('auth');
 Route::post('/submits/post_nova_requisicao','UserManagementController@insertAdesaoPostAction')->middleware('auth');
-Route::get('/submits/post_nova_requisicao','CommonController@novaRequisicaoAction')->middleware('auth');
+Route::get('/submits/post_nova_requisicao','CommonController@novaRequisicaoAction')->middleware('auth');   /////?????
 Route::get('/painel_pessoal','CommonController@painelPessoalAction')->middleware('auth');
 Route::get('/pos_cadastro_adesao_ok','CommonController@posCadastroAdesaoOKAction')->name('pos_cadastro_adesao_ok');
 Route::get('/processo_ok_nova_requisicao','CommonController@processoOkNovaRequisicaoAction')->name('processo_ok_nova_requisicao');
