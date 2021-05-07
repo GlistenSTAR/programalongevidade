@@ -7,6 +7,7 @@
   background: transparent url(../images/chamada_cadastro.jpg?crc=4193824423) no-repeat center center;
   position: relative;
   background-size: cover;
+  margin-top:22px
 }
 .register .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -22,7 +23,6 @@
   position: absolute;
   bottom: 10%;
   width: 100%;
-  padding-left: 100px;
 }
 .register h2{
   color:#2DBAD1;
@@ -146,6 +146,7 @@
   background-image: url(../images/chamada_cadastro.jpg?crc=4193824423);
   background-size: cover;
   position: relative;
+  margin-top: 22px;
 }
 .login .login_background .blue_background{
   background-color: rgba(45,186,209,0.55);
@@ -156,7 +157,6 @@
   color: white;
   text-align: left;
   font-size: 38px;
-  padding-left: 200px;
   font-weight: bold;
   padding-top: 10px;
 }

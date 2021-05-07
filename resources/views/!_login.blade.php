@@ -4,7 +4,10 @@
 
   <div class="container_fluid login" align="center">
     <div class="row login_background">
-      <div class="blue_background">Faça seu login</div>
+      
+      <div class="blue_background">
+        <div class="container">Faça seu login</div>
+      </div>
     </div>
     <hr style="border-top:30px solid #2DBAD1; width:100%; margin-top:0">
     <div class="dot_line"></div>
