@@ -14,7 +14,14 @@
             <img src="images/home_longevidade_n03_v05.jpg?crc=4065725384">
           </div>
         </div>
-        <div class="carousel-inner carousel_mobile" style="margin-top:22px" align="center">
+        <div class="carousel-indicators">
+          <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+          <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></li>
+          <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></li>
+        </div>
+      </div>
+      <div id="myCarousel_mobile" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner" style="margin-top:22px" align="center">
           <div class="carousel-item active">
             <img src="images/home_longevidade_n01_v05375x153-v2.jpg?crc=4004794603">
           </div>
@@ -26,9 +33,9 @@
           </div>
         </div>
         <div class="carousel-indicators">
-          <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
-          <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></li>
-          <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></li>
+          <li type="button" data-bs-target="#myCarousel_mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+          <li type="button" data-bs-target="#myCarousel_mobile" data-bs-slide-to="1" aria-label="Slide 2"></li>
+          <li type="button" data-bs-target="#myCarousel_mobile" data-bs-slide-to="2" aria-label="Slide 3"></li>
         </div>
       </div>
     </div>

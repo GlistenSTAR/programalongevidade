@@ -388,7 +388,7 @@
   .footer .second img{
     display: none;
   }
-  .main_page .carousel_mobile{
+  .main_page #myCarousel_mobile{
     display: none;
   }
 
@@ -525,10 +525,10 @@
       display: none;
     }
 
-    .main_page .carousel-inner{
+    .main_page #myCarousel{
       display: none;
     }
-    .main_page .carousel-inner.carousel_mobile{
+    .main_page #myCarousel_mobile{
       display: block;
     }
     .main_page .carousel.slide.carousel-fade img{
