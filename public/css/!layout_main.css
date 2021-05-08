@@ -426,6 +426,7 @@
       min-height: 80px;
       position: absolute;
       width: 100%;
+      margin-bottom: 20px;
     }
     .menus_mobile #mobile_logo{
       max-width: 280px;
@@ -434,9 +435,12 @@
       height: 70px;
       z-index: 2;
     }
-    
+    .menus_mobile .list{
+      display: none;
+    }
     .menus_mobile.toggle{
       background: white;
+      z-index: 99;
     }
     .menus_mobile.toggle #mobile_logo{
       max-width: 280px;
@@ -448,6 +452,7 @@
     }
     .menus_mobile.toggle .list{
       display: block;
+      z-index: 99;
     }
     .menus_mobile.toggle .list a{
       color:white
@@ -516,4 +521,4 @@
     .footer .contact_logo{
       display: none;
     }
-  }
+  } 
