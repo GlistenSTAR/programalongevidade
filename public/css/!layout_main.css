@@ -1,12 +1,15 @@
   html{
     overflow-x: hidden;
   }
+
   h1, span, li, button, p {
     font-family: 'Questrial', sans-serif;
   };
+
   body{
     width: 100%;
   }
+
   #accordionu2299-bw {
    z-index: 800;
   }
@@ -16,6 +19,11 @@
     z-index: 168;
     min-height: 98px;
     padding-bottom: 13px;
+    position: fixed; 
+    width:100%;
+  }
+  .header .horizon-line{
+    display: hidden;
   }
   
   .header #pu8153 {
@@ -75,6 +83,9 @@
   }
   .menus{
     padding-top:100px;
+  }
+  .menus_mobile{
+    display: none;
   }
   .menus .container{
     margin-top: -10px;
@@ -239,38 +250,6 @@
     width: 240px;
   }
 
-  @media only screen and (max-width: 600px){
-    .header{
-      display: none;
-    }
-    .menus .navbar .container{
-      justify-content:flex-start;
-    }
-    .menus .navbar-brand img{
-      width: 230px;
-      height: 55px;
-      margin-left: 10px;
-    }
-    .menus .container{
-      flex-wrap: wrap!important;
-    }
-    .menus .navbar-nav li{
-      display: block;
-      width: 100%;
-    }
-    .menus{
-      padding-top:0px;
-    }
-  }
-
-
-
-
-
-
-
-
-
   /* logined_header */
   .header_logined{
     background-color: #02334F;
@@ -348,7 +327,7 @@
     background-color: white;
     text-align: center;
     vertical-align: middle;
-  }
+  } 
   .main_page_logined .gold_border_area p, .success_order_ok .gold_border_area p{
     color:#989079
   }
@@ -381,7 +360,6 @@
     background: transparent url(../images/pontilhado_bg.png?crc=3868053100) repeat-x left top;
   }
 
-
   .error_page .blue_box{
     height: 70px;
     background-color: rgba(45,186,209,0.55);
@@ -401,4 +379,79 @@
   .error_page p{
     font-size: 15px;
     width: 80%;
+  }
+
+
+  .menus_mobile .list{
+    display: none;
+  }
+
+
+  /* responsive css */
+  @media screen and (max-width: 768px) {
+
+  }
+
+  @media screen and (max-width: 576px) {
+    .header{
+      background: white;
+      z-index: inherit;
+      min-height: 5px;
+      position: relative;
+      padding-bottom: 0px;
+    }
+    .header .container{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .header .horizon-line{
+      display: block;
+      opacity: 1;
+      background: transparent url(../images/home_longevidade_menu_superior.png?crc=450813036) repeat-x left top;
+      height: 10px;
+      width: 100%;
+    }
+    .header .container .row.pt-3{
+      display: none;
+    }
+    .menus{
+      display: none;
+    }
+    .menus_mobile{
+      display: block;
+      background: #49B6C7;
+      min-height: 80px;
+      position: absolute;
+      width: 100%;
+    }
+    .menus_mobile #mobile_logo{
+      max-width: 280px;
+      background: url(../images/menu_mobile_abre_com_logo.png?crc=406497500) no-repeat;
+      width: 300px;
+      height: 70px;
+      z-index: 2;
+    }
+    
+    .menus_mobile.toggle{
+      background: white;
+      
+    }
+    .menus_mobile.toggle #mobile_logo{
+      max-width: 280px;
+      background: url(../images/home-longevidade-log.jpg?crc=259478626) no-repeat;
+      background-size: 100% auto;
+      width: 300px;
+      height: 70px;
+      margin-left: 40px;
+    }
+    .menus_mobile.toggle .list{
+      display: block;
+    }
+    .menus_mobile.toggle .list a{
+      color:white
+    }
+    .menus_mobile.toggle .list-group-item{
+      margin-top:3px;
+      margin-bottom:3px
+    }
   }

@@ -3,8 +3,9 @@
 <script type="text/javascript" src="/js/form_control.js"></script>
 <link rel="stylesheet" type="text/css" href="css/!layout_main.css"/>
 @if(!Auth::check())
-    <div class="header" style="position: fixed; width:100%; overflow-x: hidden!important;">
+    <div class="header">
         <div class="container">
+            <div class="horizon-line"></div>
             <div class="row pt-3" style="color:white; font-size:12px;padding-right:0px">
             <div class="col-md-5" style="padding-right:0">
                 <div class="row">

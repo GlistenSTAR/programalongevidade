@@ -32,3 +32,25 @@
     </div>
   </nav>
 </div>
+<div class="menus_mobile mt-1 mb-1 pt-3">
+  <div id="mobile_logo"></div>
+  <div class="list">
+    <ul class="list-group">
+      <a href="/lgv_login"><li class="list-group-item mt-2 mb-2" style="background: #00A0D9">NOVO PEDIDO</li></a>
+      <a href="/cadastro_adesao"><li class="list-group-item mt-1" style="background: #00A0D9">CADASTRAR-SE</li></a>
+      <a href="/"><li class="list-group-item mt-1" style="background: #223164">Página inicial</li></a>
+      <a href="/sobre"><li class="list-group-item mt-1" style="background: #223164">Sobre a Torrent</li></a>
+      <a href="/programa"><li class="list-group-item mt-1" style="background: #223164">Sobre o programa</li></a>
+      <a href="/produtos"><li class="list-group-item mt-1" style="background: #223164">Produtos participantes</li></a>
+      <a href="/farmacias"><li class="list-group-item mt-1" style="background: #223164">Onde encontrar os produtos</li></a>
+      <a href="/fale_conosco"><li class="list-group-item mt-1" style="background: #223164">Fale conosco</li></a>
+    </ul>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $("#mobile_logo").click(function(){
+        $(".menus_mobile").toggleClass("toggle");
+      });
+    });
+  </script>
+</div>
