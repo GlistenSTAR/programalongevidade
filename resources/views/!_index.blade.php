@@ -2,7 +2,7 @@
 @section('content')
   @if(!$login)
     <div class="main_page">
-      <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="myCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
         <div class="carousel-inner" style="margin-top:22px" align="center">
           <div class="carousel-item active">
             <img src="images/home_longevidade_Descontinuados_18042018-v2.jpg?crc=148256787" >
@@ -12,6 +12,17 @@
           </div>
           <div class="carousel-item">
             <img src="images/home_longevidade_n03_v05.jpg?crc=4065725384">
+          </div>
+        </div>
+        <div class="carousel-inner carousel_mobile" style="margin-top:22px" align="center">
+          <div class="carousel-item active">
+            <img src="images/home_longevidade_n01_v05375x153-v2.jpg?crc=4004794603">
+          </div>
+          <div class="carousel-item">
+            <img src="images/home_longevidade_n02_v05375x154.jpg?crc=4021891849" >
+          </div>
+          <div class="carousel-item">
+            <img src="images/home_longevidade_n03_v05375x155.jpg?crc=264826450">
           </div>
         </div>
         <div class="carousel-indicators">

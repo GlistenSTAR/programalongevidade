@@ -370,7 +370,7 @@
   .error_page .blue_box h1{
    padding-top: 10px; 
   }
-  .error_page .background{
+  .error_page .background{  
     background-color: #E7F0F5;
   }
   .error_page h2,.error_page p {
@@ -386,6 +386,9 @@
     display: none;
   }
   .footer .second img{
+    display: none;
+  }
+  .main_page .carousel_mobile{
     display: none;
   }
 
@@ -520,5 +523,26 @@
     }
     .footer .contact_logo{
       display: none;
+    }
+
+    .main_page .carousel-inner{
+      display: none;
+    }
+    .main_page .carousel-inner.carousel_mobile{
+      display: block;
+    }
+    .main_page .carousel.slide.carousel-fade img{
+      width:100%;
+      height:148px!important;
+      background-size:cover ;
+      z-index: 1;
+    }
+    .main_page .carousel-indicators{
+      margin-right: auto;
+      margin-left: 100px;
+    }
+    .main_page .carousel-indicators li{
+      min-width: 20px;
+      height: 20px;
     }
   } 
