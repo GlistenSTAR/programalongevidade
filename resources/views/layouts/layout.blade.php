@@ -29,7 +29,7 @@
 <body>
   @include('common_change.header')
   @include('common_change.menu')
-  {{-- @yield('content')
-  @include('common_change.footer') --}}
+  @yield('content')
+  @include('common_change.footer')
 </body>
 </html>

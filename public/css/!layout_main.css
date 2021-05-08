@@ -385,6 +385,9 @@
   .menus_mobile .list{
     display: none;
   }
+  .footer .second img{
+    display: none;
+  }
 
 
   /* responsive css */
@@ -434,7 +437,6 @@
     
     .menus_mobile.toggle{
       background: white;
-      
     }
     .menus_mobile.toggle #mobile_logo{
       max-width: 280px;
@@ -453,5 +455,65 @@
     .menus_mobile.toggle .list-group-item{
       margin-top:3px;
       margin-bottom:3px
+    }
+    .empty_space{
+      height: 65px;
+    }
+
+    .footer .contact_us .container .first{
+      padding-bottom: 20px;
+    }
+    .footer .first .position{
+      display: none;
+    }
+    .footer .first .contact h4{
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer .first .contact i{
+      width: 100%;
+      padding-left: 60px;
+    }
+    .footer .first .contact p{
+      text-align: center;
+    }
+    .footer .second{
+      margin-top: 0px;
+    }
+    .footer .second p{
+      margin-top: 10px;
+    }
+    .footer .second p a{
+      width: 100%;
+      display: block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-weight: bold;
+    }
+    .footer .second .color{
+      display: none;
+    }
+    .footer .second img{
+      display: block;
+      height: 49px;
+      width: 250px;
+    }
+    .footer .copyright{
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .footer .copyright h5{
+      font-size: 13px;
+    }
+    .footer .copyright .col-md-5.col-12{
+      text-align: center;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer .contact_logo{
+      display: none;
     }
   }
