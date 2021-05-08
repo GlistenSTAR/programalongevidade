@@ -46,12 +46,14 @@
             <div>Ainda não tem cadastro? Comece por aqui.</div>
           </div>
         </div>
-        <div align="center" style="color:white">
-          <h1>
-            Nos informe o seu melhor e-mail
-          </h1>
-          <h4>O seu cadastro será feito de forma fácil e rápida</h4>
-        </div>
+        <!-- desktop -->
+        <div id="desktop">
+          <div align="center" style="color:white">
+            <h1>
+              Nos informe o seu melhor e-mail
+            </h1>
+            <h4>O seu cadastro será feito de forma fácil e rápida</h4>
+          </div>
           <div class="container main">
             <div class="row" align="center">
               <div class="col-md-3" align="right">
@@ -68,39 +70,102 @@
               <h4><a style="color:white">Já sou cadastrado. Como faço para acessar meus dados?</a></h4>
             </div>
           </div>
+        </div>
+        <!-- mobile -->
+        <div id="mobile">
+          
+          <div class="container main">
+            <div class="row" align="center">
+              <div class="col-3 " align="right">
+                <img class="block" id="u570_img" alt="" width="50" height="50" data-muse-src="images/home_icone_inicia_cadastro.png?crc=3891080647" src="images/home_icone_inicia_cadastro.png?crc=3891080647" data-nsfw-filter-status="sfw" style="visibility: visible;">
+              </div>
+              <div class="col-8" align="left" style="color:white">
+                <h1>
+                  Nos informe o seu melhor e-mail
+                </h1>
+              </div>
+              <input type="email" name="Email" class="form-control input-lg mt-2" style="width:80%; margin-left:auto; margin-right:auto" placeholder="Vamos começar com o seu e-mail?" required>
+              <!-- <div class="col-md-4" style="margin-top:auto; margin-bottom:auto">
+              </div>
+              <div class="col-md-3" style="margin-top:auto; margin-bottom:auto">
+                
+              </div> -->
+            </div>
+            <div align="center" style="margin-bottom:28px" class="mt-4">
+              <button class="btn btn-primary form-control form-control-lg" id="go_register" type="submit">CADASTRAR AGORA</button>
+              <h4 align="center"><a style="color:white; font-size:13px;">Já sou cadastrado. Como faço para acessar meus dados?</a></h4>
+            </div>
+          </div>
+        </div>
         <div class="dot_line"></div>
       </div>
     </div>
+    
     <div class="find_dragstore" align="center">
       <h1>Que tal achar uma farmácia aí perto de você?</h1>
-      <p>Localize a sua cidade pelos seletores abaixo</p>
-      <div class="container mb-5">
-        <div class="row">
-            <div class="col-md-2" align="right">
-              <img class="block" id="u603_img" alt="" width="86" height="82" data-muse-src="images/home_icone_localizar_farmacia.png?crc=4214829112" src="images/home_icone_localizar_farmacia.png?crc=4214829112" data-nsfw-filter-status="sfw" style="visibility: visible;">
-            </div>
-            <div class="col-md-7 form-group" align="left" style="margin-top:auto; margin-bottom:auto">
-              <select class="uf" name="uf" id="ufID">
-                <option value="" selected>UF</option>
-                @foreach ($laEstados as $estado)
-                <option value="{{$estado->ESTADO_ID}}">{{$estado->ESTADO_UF}}</option>
-                @endforeach
-              </select>
-              <select class="cidade" name="cidade" id="cidadeId">
-                <option value="" selected>Cidade</option>
-              </select>
-              <select class="bairro" name="bairro" id="bairroId">
-                <option value="" selected>Bairro</option>
-              </select>
-            </div>
-            <div class="col-md-3" align="left" style="margin-top:auto; margin-bottom:auto">
-              <button class="btn btn-primary form-control form-control-lg" id="find_dragstore" style="width:200px!important;">CONSULTAR AGORA</button>
-            </div>
-        </div>
-        <div class="mb-5">
-          <p>Precisa de ajuda para consultar os pontos de venda?</p>
+      <div id="desktop">
+        <p>Localize a sua cidade pelos seletores abaixo</p>
+        <div class="container mb-5">
+          <div class="row">
+              <div class="col-md-2" align="right">
+                <img class="block" id="u603_img" alt="" width="86" height="82" data-muse-src="images/home_icone_localizar_farmacia.png?crc=4214829112" src="images/home_icone_localizar_farmacia.png?crc=4214829112" data-nsfw-filter-status="sfw" style="visibility: visible;">
+              </div>
+              <div class="col-md-7 form-group" align="left" style="margin-top:auto; margin-bottom:auto">
+                <select class="uf" name="uf" id="ufID">
+                  <option value="" selected>UF</option>
+                  @foreach ($laEstados as $estado)
+                  <option value="{{$estado->ESTADO_ID}}">{{$estado->ESTADO_UF}}</option>
+                  @endforeach
+                </select>
+                <select class="cidade" name="cidade" id="cidadeId">
+                  <option value="" selected>Cidade</option>
+                </select>
+                <select class="bairro" name="bairro" id="bairroId">
+                  <option value="" selected>Bairro</option>
+                </select>
+              </div>
+              <div class="col-md-3" align="left" style="margin-top:auto; margin-bottom:auto">
+                <button class="btn btn-primary form-control form-control-lg" id="find_dragstore" style="width:200px!important;">CONSULTAR AGORA</button>
+              </div>
+          </div>
+          <div class="mb-5">
+            <p>Precisa de ajuda para consultar os pontos de venda?</p>
+          </div>
         </div>
       </div>
+      <div id="mobile">
+        <div class="container mb-5">
+          <div class="row mt-4 mb-5">
+              <div class="col-3" align="right">
+                <img class="block" id="u603_img" alt="" width="50" height="50" data-muse-src="images/home_icone_localizar_farmacia.png?crc=4214829112" src="images/home_icone_localizar_farmacia.png?crc=4214829112" data-nsfw-filter-status="sfw" style="visibility: visible;">
+              </div>
+              <div class="col-8">
+                <p>Localize a sua cidade pelos seletores abaixo</p>
+              </div>
+              <div class="row form-group mt-4" align="left" style="margin-top:auto; margin-bottom:auto; width:80%;margin-left:auto;margin-right:auto">
+                <select class="uf col-12 mb-3" name="uf" id="ufID">
+                  <option value="" selected>UF</option>
+                  @foreach ($laEstados as $estado)
+                  <option value="{{$estado->ESTADO_ID}}">{{$estado->ESTADO_UF}}</option>
+                  @endforeach
+                </select>
+                <select class="cidade col-12 mb-3" name="cidade" id="cidadeId">
+                  <option value="" selected>Cidade</option>
+                </select>
+                <select class="bairro col-12" name="bairro" id="bairroId">
+                  <option value="" selected>Bairro</option>
+                </select>
+              </div>
+              <div class="col-12 mt-5" align="left" style="margin-top:auto; margin-bottom:auto">
+                <button class="btn btn-primary form-control form-control-lg" id="find_dragstore" >CONSULTAR AGORA</button>
+              </div>
+          </div>
+          <div class="mb-5">
+            <p>Precisa de ajuda para consultar os pontos de venda?</p>
+          </div>
+        </div>
+      </div>
+      
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>

@@ -391,7 +391,12 @@
   .main_page #myCarousel_mobile{
     display: none;
   }
-
+  .register #mobile{
+    display: none;
+  }
+  #mobile{
+    display: none;
+  }
 
   /* responsive css */
   @media screen and (max-width: 768px) {
@@ -399,6 +404,12 @@
   }
 
   @media screen and (max-width: 576px) {
+    #mobile{
+      display: block;
+    }
+    #desktop{
+      display: none;
+    }
     .header{
       background: white;
       z-index: inherit;
@@ -482,7 +493,7 @@
     }
     .footer .first .contact i{
       width: 100%;
-      padding-left: 60px;
+      padding-left: 20px;
     }
     .footer .first .contact p{
       text-align: center;
@@ -544,5 +555,44 @@
     .main_page .carousel-indicators li{
       min-width: 20px;
       height: 20px;
+    }
+    .register .heading {
+      font-size: 25px;
+      width: 90%;
+      margin-top: -10px;
+      margin-left: 10%;
+      padding:0 0;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      background-size: 100% 80px;
+    }
+    .register #desktop{
+      display: none;
+    }
+    .register #mobile{
+      display: block;
+    }
+    .register #mobile .col-3{
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-right: 0px;
+      padding-top: 10px;
+    }
+    .register #mobile .col-8 h1{
+      font-size: 23px;    
+      padding-left: 0px;  
+    }
+
+    .find_dragstore h1{
+      font-size: 23px;
+    }
+    .find_dragstore #mobile .col-3{
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-right: 0px;
+    }
+    .find_dragstore #mobile .col-8 p{
+      font-size: 18px;    
+      padding-left: 0px;  
     }
   } 
