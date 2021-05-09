@@ -143,3 +143,64 @@
 .contact_us_ok h3{
   color:#2DBAD1
 }
+
+
+.about_us .poi{
+  margin-top:80px; 
+  margin-bottom: 80px
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .about_us .background{
+    background-size: cover;
+    background-position: center center;
+  }
+  .about_us .background .faca_letter{
+    font-size: 40px;
+  }
+  .about_us .dot_line{
+    height: 10px;
+    background: transparent url(../images/pontilhado_bg.png?crc=3868053100) repeat-x left top!important;
+  }
+  .about_us p{
+    font-size: 18px;
+  }
+  .about_us .green_border{
+    border: 1px solid #BACFD2;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    position: relative;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  .about_us .poi{
+    margin-top:30px; 
+    margin-bottom: 30px
+  }
+
+  .about_us .background_1{
+    height: 210px;
+    background-size: cover;
+    position: relative;
+  }
+  .about_us .background_1 .faca_letter{
+    font-size: 35px;
+    bottom: 3%;
+    width: 100%;
+  }
+  .about_us .background_1 .faca{
+    height: 50px;
+  }
+  .about_us .s_green_button{
+    margin-left: 20px;
+  }
+}

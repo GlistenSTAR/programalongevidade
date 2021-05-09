@@ -2,20 +2,20 @@
 @section('content')
   <link rel="stylesheet" type="text/css" href="css/!contact_us.css"/>
 
-  <div class="container_fluid about_us">
+  <div class="container_fluid about_us"> 
     <div class="background"><div class="faca"></div>
       <div class="container">
         <p class="faca_letter mt-5"><b>Sobre a Torrent</b></p>
       </div>
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0; margin-bottom:10px">
-    <div class="dot_line"></div>
+    <div class="green_dot_line"></div>
     <div class="container">
       <div><p>A Torrent é uma empresa multinacional que vem se tornando uma das principais indústrias farmacêuticas do mundo. Foi fundada em 1962 pelo indiano Shri Metha e desembarcou no Brasil em 2002. Nosso foco é a prevenção e o tratamento de doenças, visando maior sobrevida ao alcance de todos.</p>
         <p>Fornecemos produtos de excelência, temos compromisso com a total assistência dos nossos clientes, e atuamos com responsabilidade para fazer a diferença na qualidade de vida e no meio ambiente que nos cerca.</p>
         <p>Todos os medicamentos da Torrent saem da matriz (Índia) 100% aprovados pelo controle da qualidade. Quando chegam ao Brasil são analisados novamente por profissionais altamente qualificados: farmacêuticos, químicos e técnicos especializados.</p></div>
     </div>
-    <div class="dot_line"></div>
+    <div class="green_dot_line"></div>
     <div class="grey_background">
       <div class="container">
         <div class="green_border">
@@ -38,11 +38,13 @@
       </div>
     </div>
     <div class="dot_line"></div>
-    <div class="container" style="margin-top:80px; margin-bottom: 80px">
+    <div class="container poi" >
       <p>A Torrent recebeu da ANVISA (Agência Nacional de Vigilância Sanitária) a licença de funcionamento em dezembro de 2004, onde começou a operar o seu depósito e laboratório.
       Localizado em Alphaville, município de Barueri, em uma área de 1.706 m², está capacitado para armazenar 1.082 pallets.
       A Torrent conta ainda com profissionais altamente qualificados no setor de armazenagem e distribuição dos medicamentos, para dar continuidade ao processo de inbound dos produtos importados da Índia.</p>
     </div>
+    <div class="dot_line"></div>
+
     <div class="background_1"><div class="faca"></div>
       <div class="container">
         <p class="faca_letter mt-5"><b>Estrutura</b></p>
@@ -50,7 +52,7 @@
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0; margin-bottom:10px">
     <div style="background-color: white">
-      <div class="container mt-3 mb-3">
+      <div class="container mt-3 mb-1">
         <label>Unidades Fabris</label>
         <p>Na Índia, são 3 unidades industriais dedicadas a fabricação de diversas fórmulas e apresentações, rigorosamente fiscalizadas pela OMS. As sedes contam com serviços totalmente adaptados aos mercados nacionais e internacionais.</p>
         <p>Com a entrega da fábrica em Dahej, Gujarat - Índia, a capacidade de produção será expandida para 25 bilhões de comprimidos por ano.</p>
