@@ -1,6 +1,6 @@
 <div class="footer">
   <div class="footer_background"></div>
-  <div class="contact_us">
+  <div class="footer_contact_us">
     <div class="container">
       <div class="row first">
         <div class="col-md-6 col-12 position">

@@ -177,7 +177,7 @@
     padding-bottom: 30px;
     border-radius: 5px;
     position: relative;
-    margin: 10px;
+    margin: 10px; 
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 18px;
@@ -202,5 +202,30 @@
   }
   .about_us .s_green_button{
     margin-left: 20px;
+  }
+
+  .contact_us .background{
+    height: 133px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .contact_us .background .faca{
+    background-color: transparent;
+  }
+  .contact_us .background .faca_letter{
+    color:white;
+    font-size: 40px;
+    padding-top: 10px;
+    bottom: -60px;
+  }
+  .contact_us hr{
+    border-top: 50px solid #2DBAD1!important
+  }
+  .contact_us .content hr{
+    display: none;
+  }
+  .contact_us .content .row{
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

@@ -6,9 +6,9 @@
       <div class="container">
         <p class="faca_letter"><b>Faça contato</b></p>
       </div>
-    </div>
+    </div> 
     <hr style="border-top:40px solid #2DBAD1; margin-top:0">
-    <div class="container">
+    <div class="container content">
       <div class="row">
         <hr style="border-top:10px solid #2DBAD1; width:70%; margin-bottom:0" align="left">
         <h2>Você tem dúvidas? Fale com a nossa equipe</h2>

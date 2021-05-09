@@ -127,7 +127,7 @@
     background: transparent url(../images/pontilhado_bg_azul.png?crc=345125544) repeat-x left top;
   }
 
-  .footer .contact_us{
+  .footer .footer_contact_us{
     opacity: 1;
     background: #F1EEE7 url(../images/home_longevidade_ajuste_rodape.jpg?crc=3970017845) repeat-x left top;
   }
@@ -136,21 +136,21 @@
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
 
-  .footer .contact_us .container .first{
+  .footer .footer_contact_us .container .first{
     padding-top:50px;
     padding-bottom: 50px;
   }
-  .footer .contact_us .container .second{
+  .footer .footer_contact_us .container .second{
     text-align: center;
     justify-content: center;
   }
-  .footer .contact_us .container .second a{
+  .footer .footer_contact_us .container .second a{
     text-decoration: none;
   }
-  .footer .contact_us .container .second span{
+  .footer .footer_contact_us .container .second span{
     margin:10px
   }
-  .footer .contact_us .container .second span.color{
+  .footer .footer_contact_us .container .second span.color{
     color:#2DBAD1
   }
 
@@ -498,7 +498,7 @@
       height: 65px;
     }
 
-    .footer .contact_us .container .first{
+    .footer .footer_contact_us .container .first{
       padding-bottom: 20px;
     }
     .footer .first .position{
