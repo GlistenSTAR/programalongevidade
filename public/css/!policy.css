@@ -20,7 +20,7 @@
   font-size: 52px;
   padding-top: 10px;
   position: absolute;
-  bottom: 5%;
+  bottom: 5%; 
   width: 100%;
   font-weight: bold;
 }
@@ -46,4 +46,39 @@
 .policy a{
   text-decoration: none;
   cursor: pointer;
+}
+
+/* responsive area */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .policy .background{
+    height: 184px;
+    position: relative;
+    background-size: cover;
+    margin-top: 22px;
+    background-position: center center;
+  }
+  .policy .background .faca{
+    background-color: transparent;
+  }
+  .policy .background .faca_letter{
+    color:white;
+    font-size: 36px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -110px; 
+    width: 100%;
+    font-weight: bold;
+  }
+  .policy hr{
+    border-top: 100px solid #2DBAD1!important
+  }
+  .policy .container.content{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
