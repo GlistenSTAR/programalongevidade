@@ -6,7 +6,7 @@
   background-image: url(../images/chamada_farmacias.jpg?crc=323513180);
   position: relative;
   background-size: cover;
-  margin-top: 22px;
+  margin-top: 22px; 
 }
 .find_drug .background .faca{
   background-color: rgba(45,186,209,0.55);
@@ -94,4 +94,51 @@
 }
 .position_drugstore h1{
   color: #319BAC;
+}
+
+.find_drug hr{
+  border-top:40px solid #2DBAD1
+}
+
+
+/* responsive area */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .find_drug .background{
+    height: 190px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 22px; 
+  }
+  .find_drug .faca{
+    background-color: transparent!important;
+  }
+  .find_drug .background .faca_letter{
+    font-size: 38px;
+    width: 80%;
+    padding-top: 0;
+    position: absolute;
+    bottom: -110px;
+    font-weight: bold;
+  }
+  .find_drug hr{
+    border-top:90px solid #2DBAD1
+  }
+  .find_drug .content .col-12{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .find_drug .uf{
+    width: 95%;
+    margin-top: 10px;
+  }
+  .find_drug .cidade, .find_drug .bairro{
+    width: 95%;
+    margin-top: 10px;
+  }
 }
