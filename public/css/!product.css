@@ -12,7 +12,7 @@
   background-color: rgba(45,186,209,0.55);
   height: 70px;
   position: absolute;
-  bottom: 10%;
+  bottom: 10%; 
   width: 100%; 
 }
 .product .background .faca_letter{
@@ -62,4 +62,65 @@
 }
 .success_order_ok .gold_border_area p{
   font-size: 14px;
+}
+
+.product .content_div{
+  width: 80%;
+}
+
+/* responsive area */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .product .background{
+    height: 200px;
+    background-image: url(../images/chamada_produtos.jpg?crc=334911775);
+    background-size: cover;
+    background-position: center center;
+  }
+  .product .background .faca{
+    background-color: transparent;
+    height: 70px;
+    position: absolute;
+    bottom: 10%; 
+    width: 100%; 
+  }
+  .product .background .faca_letter{
+    color:white;
+    font-size: 40px;
+    bottom: -120px;
+    width: 100%;
+    padding-top: 0;
+  }
+  .product hr{
+    border: 65px solid #2DBAD1;
+    width: 100%;
+  }
+  .product .content hr{
+    display: none;
+  }
+  .product .content_div{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product .content_div h1{
+    font-size: 30px;
+  }
+  .product #mobile{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product #mobile img{
+    width: 30px;
+    height: 30px;
+  }
+  .product #mobile .col-3{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+  }
 }

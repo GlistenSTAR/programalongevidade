@@ -130,8 +130,9 @@
 @media screen and (max-width: 576px) {
   .program .background{
     height: 277px;
+    background: url("../images/chamada_o_programa-u9444-fr.jpg?crc=257907367");
     background-position: center center;
-    background-size: center;
+    background-size: cover;
   }
   .program .background .faca_letter{
     font-size: 36px;
@@ -152,5 +153,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+  }
+  .program .accordian_area p{
+    font-size: 18px;
   }
 }
