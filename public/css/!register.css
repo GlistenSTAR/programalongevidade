@@ -232,4 +232,15 @@
   .login .grey_back .zxcv{
     width:90%
   }
+
+  .register .container .row.qwer{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .register .container .row.qwer h2{
+    font-size: 25px;
+  }
+  .register .container .row.qwer p{
+    font-size: 17px;
+  }
 }

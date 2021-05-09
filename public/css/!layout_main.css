@@ -224,10 +224,10 @@
   .register .main .btn-primary:hover, .find_dragstore .btn-primary:hover{
     background-color: #1f5bd3;
   }
-  .register .dot_line{
+  /* .register .dot_line{
     height: 20px;
     background: transparent url(../images/pontilhado_bg_branco.png?crc=4288651323) repeat-x left top;
-  }
+  } */
 
   .find_dragstore h1, .find_dragstore p{
     color:#233164;
@@ -397,7 +397,27 @@
   #mobile{
     display: none;
   }
-
+  .register .qwe{
+    width:50%
+  }
+  .register .asd{
+    width:60%;
+  }
+  .register .first{
+    width: 50%;
+  }
+  .register .zxc{
+    width: 60%;
+  }
+  .register .qw{
+    width: 50%;
+  }
+  .register .as{
+    margin-left: 2em
+  }
+  .register .checkarea{
+    width:80%
+  }
   /* responsive css */
   @media screen and (max-width: 768px) {
 
@@ -594,5 +614,52 @@
     .find_dragstore #mobile .col-8 p{
       font-size: 18px;    
       padding-left: 0px;  
+    }
+    .dot_line{
+      height: 20px;
+      background: transparent url(../images/pontilhado_bg_branco.png?crc=4288651323) repeat-x left top;
+    }
+
+    .register .qwe{
+      width:80%
+    }
+    .register .asd{
+      width:95%;
+    }
+    .register .asd .col-md-6{
+      margin-bottom: 18px;
+    }
+    .register .first{
+      width: 80%;
+    }
+    .register .zxc{
+      width: 95%;
+    }
+    .register .zxc .col-12{
+      margin-top:7px;
+      margin-bottom:7px
+    }
+    .register .qw{
+      width: 95%;
+    }
+    .register .as{
+      margin-left: 10px;
+      float: left;
+      width: 80%;
+    }
+    .register .checkarea span{
+      text-decoration: none!important;
+    }
+    .register .checkarea input{
+      float: left;
+      width: 20%;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .register .checkarea{
+      width:100%
+    }
+    .register .no_accept a{
+      font-size: 16px!important;
     }
   } 

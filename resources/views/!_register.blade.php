@@ -10,7 +10,7 @@
     </div>
     <hr style="border-top:40px solid #2DBAD1; margin-top:0">
     <div class="container">
-      <div class="row">
+      <div class="row qwer">
         <hr style="border-top:10px solid #2DBAD1; width:70%; margin-bottom:0" align="left">
         <h2>Faça aqui o seu cadastro e seu pedido</h2>
         <p>O processo de pedido ao programa é bem simples, fácil e rápido. Abaixo você deve preencher os campos com seus dados pessoais, atentando-se sempre ao correto preenchimento do CPF e data de nascimento, pois eles serão os dados chave para suas futuras solicitações. No item 2, você deverá nos informar os dados do médico que lhe prescreveu o medicamento e no item 3, basta nos informar para qual produto você deseja o benefício. Após a conclusão desse processo você receberá imediatamente um e-mail de confirmação. Verifique suas pastas de spam e lixo eletrônico, pois nosso e-mail pode ter ido ido automaticamente para uma dessas pastas.</p>
@@ -18,11 +18,11 @@
     </div>
     <div class="dot_line"></div>
     <div class="container" align="center">
-      <div align="center first mb-5" style="width:50%">
+      <div align="center first mb-5 qwe">
         <h3 align="center">ETAPA<span class="badge badge-primary">1</span> Forneça seus dados pessoais</h3> 
         <p class="small_padding mb-5">Digite corretamente seus dados cadastrais. Eles serão usados sempre que você precisar fazer novas solicitações de medicamentos.</p>
       </div>
-      <div class="row" style="width:60%" align="left">
+      <div class="row asd" align="left">
         <div class="col-md-6">
           <label>Name : </label>
           <input type="text" class="form-control cad_texto" id="cad_nome" name="Nome" required placeholder="Digite seu nome" data-content-type="nome_completo">
@@ -44,20 +44,20 @@
           <input type="text" class="form-control cad_texto" id="cad_tel_fixo" name="TelComercial" data-content-type='tel' required placeholder="Ex.: (11) 5501-2500">
         </div>
       </div>
-      <div align="center first mb-5" style="width:50%">
+      <div align="center first mb-5" >
         <h3 align="center">ETAPA<span class="badge badge-primary">2</span> Nos informe os dados do médico</h3> 
         <p class="small_padding mb-5">Essas informações constam na receita médica que você recebeu. O CRM é o registro do seu médico e deve estar junto do carimbo dele na receita/prescrição. ATENÇÃO: Ao digitar o CRM, não digite letras, somente os números devem ser informados. Caso o registro do seu médico possua zeros como dígitos iniciais, você deve omiti-los. Veja o exemplo: 0003772PR – Você deve informar somente: 3772.</p>
       </div>
-      <div class="row" style="width:60%" align="left">
-        <div class="col-md-6">
+      <div class="row zxc" align="left">
+        <div class="col-md-6 col-12">
           <label>Nome do médico : </label>
           <input type="text" class="form-control cad_texto" id="cad_medico" name="NomeMedico" required placeholder="Digite o nome do médico">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-12">
           <label>CRM : </label>
           <input type="number" class="form-control cad_texto_crm" id="cad_med_crm" name="Crm" required placeholder="Somente númeross">
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-12">
           <label>UF do CRM : </label>
           <select class="cad_caixa_selecao form-control" name="UfCrm" id="cad_uf_crm">
             <option value="" selected>UF</option>
@@ -68,11 +68,11 @@
         </div>
       </div>
 
-      <div align="center first mb-5" style="width:50%">
+      <div align="center first mb-5">
         <h3 align="center">ETAPA<span class="badge badge-primary">3</span> Selecione o produto desejado</h3> 
         <p class="small_padding mb-5">Selecione inicialmente o produto, e logo em seguida a apresentação em miligramas e também a quantidade de comprimidos.</p>
       </div>
-      <div class="row mt-5" style="width:50%" align="left">
+      <div class="row mt-5 qw" align="left">
         <div class="col-md-6">
           <label>Medicamento : </label>
           <select id="medicamento" required name="Medicamento" class="cad_caixa_selecao form-control" onchange="getListaApresentacao(this)">
@@ -89,9 +89,10 @@
           </select>
         </div>
       </div>
-      <div class="row checkarea" align="center" style="width:80%">
+
+      <div class="row checkarea mt-2 mb-2" align="center" >
         <input type="checkbox" id="aceito_regulamento" name="aceito_regulamento" value="aceito_regulamento">
-        <span class="ml-5"><b>Conheço o regulamento do programa e concordo as cláusulas previstas nele</b></span>
+        <span class="as"><b>Conheço o regulamento do programa e concordo as cláusulas previstas nele</b></span>
       </div>
       <div class="container mb-5">
         <div class="no_accept">
