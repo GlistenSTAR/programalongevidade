@@ -1,10 +1,8 @@
 @extends('layouts.layout')
 @section('content')
   <link rel="stylesheet" type="text/css" href="css/!register.css"/>
-
   <div class="container_fluid login" align="center">
     <div class="row login_background">
-      
       <div class="blue_background">
         <div class="container">Faça seu login</div>
       </div>
@@ -16,13 +14,13 @@
         <div class="row" style="width:100%; color: #223163">
           <h2 align="center" style="width:100%;">Que bom que você está de volta!</h2>
           <p align="center" style="width:100%;">(Preencha os campos e faça novas requisições de medicamentos)</p>
-          <p style="padding-left:150px; padding-right:150px">Use o seu CPF e sua data de nascimento para atualizar seus dados pessoais ou então fazer novas requisições de medicamentos no programa Longevidade. Caso não lembre os dados que informou quando efetuou seu cadastro, utilize a opção "Esqueci meus dados de acesso" e aguarde que lhe enviaremos em instantes um e-mail com as informações.</p>
+          <p class="asdf">Use o seu CPF e sua data de nascimento para atualizar seus dados pessoais ou então fazer novas requisições de medicamentos no programa Longevidade. Caso não lembre os dados que informou quando efetuou seu cadastro, utilize a opção "Esqueci meus dados de acesso" e aguarde que lhe enviaremos em instantes um e-mail com as informações.</p>
         </div>
-        <div class="row" style="width:40%" align="center">
+        <div class="row zxcv" align="center">
             <label>CPF: (Apenas números)</label>
             <input id="cad_CPF" name="cpfCadastro" class="cad_texto form-control" type="text" maxlength="255" data-content-type='cpf' placeholder="Digite seu CPF" required />
         </div>
-        <div class="row" style="width:40%" align="center">
+        <div class="row zxcv" align="left">
           <label>Data de Nascimento: (DD/MM/AAAA)</label>
           <input id="cad_dt_nascto" name="dtNascimento" class="cad_texto form-control" type="text" maxlength="255" data-content-type='data' placeholder="Ex.: 18/04/1965" required />
         </div>

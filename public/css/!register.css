@@ -178,3 +178,58 @@
 .login button.btn-default:hover{
   background: linear-gradient(to bottom,#119eb4 6%,#01554a );
 }
+
+.login .grey_back .asdf{
+  padding-left:150px; 
+  padding-right:150px
+}
+.login .grey_back .zxcv{
+  width:40%
+}
+
+
+ /* responsive css */
+ @media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .login .login_background{
+    height: 188px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    /* background-size: center; */
+    margin-top:22px;
+    width:100%
+  }
+  .login .login_background .blue_background{
+    background-color: transparent;
+    height: 70px;
+    color: white;
+    text-align: left;
+    font-size: 38px;
+    font-weight: bold;
+    bottom: -60px;
+  }
+  .login hr{
+    border-top: 50px solid #2DBAD1!important;
+  }
+  .login .grey_back h2{
+    font-size: 28px;
+  }
+  .login .grey_back .container{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .login .grey_back .asdf{
+    padding-left:20px; 
+    padding-right:20px
+  }
+  .login .grey_back .zxcv{
+    width:90%
+  }
+}
