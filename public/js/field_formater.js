@@ -108,7 +108,7 @@ $(document).ready(function() {
 
     });
 
-    $("input[data-content-type='email']").each(function (index, data) {
+    $("input[type='email']").each(function (index, data) {
 
         $(data).on('blur', function(){
 
