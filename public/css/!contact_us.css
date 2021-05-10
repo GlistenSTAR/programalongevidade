@@ -229,4 +229,16 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .contact_us_ok_letter .background{
+    height: 225px;
+  }
+  .contact_us_ok_letter.contact_us .background .faca_letter{
+    font-size: 32px;
+  }
+  .contact_us_ok_letter.contact_us .thin_hr{
+    display: none!important;
+  }
+  .contact_us_ok_letter .contact_us_ok .row{
+    width: 95%!important;
+  }
 }
