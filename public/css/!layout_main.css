@@ -550,7 +550,7 @@
       margin-bottom:3px
     }
     .empty_space{
-      height: 65px;
+      height: 62px;
     }
 
     .footer .footer_contact_us .container .first{
@@ -669,10 +669,11 @@
       font-size: 18px;    
       padding-left: 0px;  
     }
-    .dot_line{
-      height: 20px;
-      background: transparent url(../images/pontilhado_bg_branco.png?crc=4288651323) repeat-x left top;
-    }
+    /* .dot_line{
+      margin-top: 20px;
+      height: 10px;
+      background: transparent url(../images/pontilhado_bg_azul.png?crc=345125544) repeat-x left top;
+    } */
 
     .register .qwe{
       width:80%
@@ -746,5 +747,11 @@
     .delete_account_content.mb-5 p{
       text-align: center!important;
       font-size: 14px!important;
+    }
+    .find_dragstore select{
+      margin-left: 0px;
+    }
+    .header .horizon-line-logined{
+      display: block;
     }
   } 

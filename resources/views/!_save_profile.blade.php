@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
-<link rel="stylesheet" type="text/css" href="css/!profile.css"/>
-
+<link rel="stylesheet" type="text/css" href="css/!profile.css"/> 
+<div class="dot_line" id="mobile" style></div>
 <div class="saved_profile container" align="center">
   <hr style="border-top:7px solid #2DBAD1; width:70%; margin-bottom:0" align="left">
   <h2 align="left">Dados pessoais alterados com sucesso!</h2>

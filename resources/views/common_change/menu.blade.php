@@ -85,7 +85,7 @@
         </div>
       </div>
     </nav>
-  </div>
+  </div> 
   <div class="menus_mobile_logined mt-1 mb-1 pt-3">
     <div id="mobile_logo"></div>
     <div class="list">

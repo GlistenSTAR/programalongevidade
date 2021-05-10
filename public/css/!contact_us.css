@@ -159,6 +159,7 @@
   .about_us .background{
     background-size: cover;
     background-position: center center;
+    height: 232px;
   }
   .about_us .background .faca_letter{
     font-size: 40px;

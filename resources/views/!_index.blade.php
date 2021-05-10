@@ -20,7 +20,7 @@
           <li type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></li>
         </div>
       </div>
-      <div id="myCarousel_mobile" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+      <div id="myCarousel_mobile" class="carousel slide carousel-fade mt-2 mb-5" data-bs-ride="carousel">
         <div class="carousel-inner" style="margin-top:22px" align="center">
           <div class="carousel-item active">
             <img src="images/home_longevidade_n01_v05375x153-v2.jpg?crc=4004794603">

@@ -141,7 +141,7 @@
         </script>
         @include("commons.terms_lightbox")
 @else
-    <div class="header">
+    <div class="header"> 
         <div class="horizon-line-logined"></div>
     </div>    
     <div class="header_logined" style="position: fixed; width:100%">
