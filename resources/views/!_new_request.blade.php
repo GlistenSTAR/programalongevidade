@@ -7,10 +7,10 @@
       <h2><b>Novo pedido de medicamento</b></h2>
       <p>{{explode(" ",Auth::user()->name)[0]}}, você deve primeiramente nos informar os dados do médico que lhe prescreveu o medicamento, e logo em seguida nos informar qual medicamento deseja solicitar o desconto. Preenchendo essas informações, basta clicar no botão "concluir".</p>
       <div align="center first mb-5" style="width:100%">
-        <h3 align="center">ETAPA<span class="badge badge-primary">1</span> Nos informe os dados do médico</h3> 
-        <p class="small_padding mb-5">Essas informações constam na receita médica que você recebeu. O CRM é o registro do seu médico e deve estar junto do carimbo dele na receita/prescrição. ATENÇÃO: Ao digitar o CRM, não digite letras, somente os números devem ser informados. Caso o registro do seu médico possua zeros como dígitos iniciais, você deve omiti-los. Veja o exemplo: 0003772PR – Você deve informar somente: 3772.</p>
-      </div>
-      <div class="container mt-5" style="width:80%">
+        <h3 align="center col-12">ETAPA<span class="badge badge-primary">1</span> Nos informe os dados do médico</h3> 
+        <p class="small_padding col-12 mb-5">Essas informações constam na receita médica que você recebeu. O CRM é o registro do seu médico e deve estar junto do carimbo dele na receita/prescrição. ATENÇÃO: Ao digitar o CRM, não digite letras, somente os números devem ser informados. Caso o registro do seu médico possua zeros como dígitos iniciais, você deve omiti-los. Veja o exemplo: 0003772PR – Você deve informar somente: 3772.</p>
+      </div> 
+      <div class="container mt-5 qaz" style="width:80%">
         <div class="col-md-6">
           <label>Nome do médico : </label>
           <input type="text" class="form-control cad_texto" id="cad_medico" name="NomeMedico" required placeholder="Digite o nome do médico">
@@ -34,7 +34,7 @@
         <h3 align="center">ETAPA<span class="badge badge-primary">2</span> Selecione o produto desejado</h3> 
         <p class="small_padding">Selecione inicialmente o produto, e logo em seguida a apresentação em miligramas e também a quantidade de comprimidos.</p>
       </div>
-      <div class="container" style="width:60%">
+      <div class="container qaz" style="width:60%">
         <div class="col-md-6">
           <label>Medicamento : </label>
           <select id="cad_produtos" name="Medicamento" required class="cad_caixa_selecao form-control">

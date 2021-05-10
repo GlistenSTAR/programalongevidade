@@ -63,3 +63,38 @@
 .new_request .btn-default:hover{
   background:linear-gradient(to bottom,#19a0b4 6%,#015f53 );
 }
+
+
+/* responsive area */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .new_request .row{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .new_request .row hr{
+    margin-top: 40px!important;
+  }
+  .new_request p.small_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .new_request .qaz{
+    width: 120%!important;
+    margin-top:20px!important;
+    margin-bottom: 20px;
+  }
+  .new_request .qaz .checkarea{
+    float: left;
+  }
+  .new_request .qaz .checkarea span{
+    margin-left: 20px;
+    margin-top:-10px
+  }
+  .new_request .qaz .checkarea input{
+    margin-bottom: -100px;
+  }
+}
