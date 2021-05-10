@@ -213,7 +213,7 @@
         <div class="dot_line"></div> 
         <div class="main_page_logined container">
           <hr align="left">
-          <h1><b>Olá {{explode(" ",Auth::user()->name)[0]}}, você está conectado ao site!</b></h1>
+          <h1><b>Olá {{explode(" ", Auth::user()->name)[0]}}, você está conectado ao site!</b></h1>
           <p style="color:grey; font-size:20px">
             Este é o seu painel pessoal. Aqui você pode efetuar novos pedidos de desconto para os medicamentos do programa Longevidade. Caso queira atualizar seus dados pessoais, utilize o botão "alterar dados pessoais". Você sempre receberá confirmações em seu e-mail para cada uma dessas ações.
           </p>
@@ -222,7 +222,7 @@
               <h2><b>O que você deseja fazer agora ?</b></h2>
             </div>
             <div class="row mt-5 mb-5" align="center">
-              <div class="col-md-6 mt-5" style="padding-left:0 padding-right:0">
+              <div class="col-md-6 mt-5" style="padding-left:0 padding-right:0" id="desktop">
                 <div class="col-md-4" align="right">
                   <img class="block" id="u67850_img" alt="" width="40" height="40" data-muse-src="images/nova_requisicao.jpg?crc=3885135111" src="images/nova_requisicao.jpg?crc=3885135111">
                 </div>
@@ -231,7 +231,20 @@
                   <p>Utilize este botão para solicitar novos descontos em medicamentos do programa Longevidade</p>
                 </div>
               </div>
-              <div class="col-md-6 mt-5" style="padding-left:0 padding-right:0">
+              <div class="col-md-6 mt-5" style="padding-left:0 padding-right:0" id="mobile">
+                <div class="row">
+                  <div class="col-2" align="right" style="padding-right:0px; margin-top:5px">
+                    <img class="block" id="u67850_img" alt="" width="40" height="40" data-muse-src="images/nova_requisicao.jpg?crc=3885135111" src="images/nova_requisicao.jpg?crc=3885135111">
+                  </div>
+                  <div class="col-10" style="padding-left:0px">
+                    <button class="btn btn-lg btn-primary mb-3" id="new_order">FAZER UM NOVO PEDIDO</button>
+                  </div>
+                </div>
+                <p>Utilize este botão para solicitar novos descontos em medicamentos do programa Longevidade</p>
+              </div>
+
+
+              <div class="col-md-6 mt-5" style="padding-left:0 padding-right:0" id="desktop">
                 <div class="col-md-2" align="right">
                 <img class="block" id="u67852_img" alt="" width="40" height="40" data-muse-src="images/alterar_dados_pessoais.jpg?crc=3914973714" src="images/alterar_dados_pessoais.jpg?crc=3914973714">
                 </div>
@@ -239,6 +252,17 @@
                   <button class="btn btn-lg btn-primary mb-3" id="change_data_content">ALTERAR MEUS DADOS PESSOAIS</button>
                   <p>Utilize esse botão para alterar seus dados pessoais já cadastrados no programa Longevidade</p>
                 </div>
+              </div>
+              <div class="col-md-6 mt-5" style="width:95%; margin-left:auto; margin-right:auto" id="mobile">
+                <div class="row">
+                  <div class="col-2" align="right" style="padding-right:15px; margin-top:5px">
+                    <img class="block" id="u67852_img" alt="" width="40" height="40" data-muse-src="images/alterar_dados_pessoais.jpg?crc=3914973714" src="images/alterar_dados_pessoais.jpg?crc=3914973714">
+                  </div>
+                  <div class="col-10" style="padding-left:0px">
+                    <button class="btn btn-lg btn-primary mb-3" id="change_data_content" style="font-size:14px; height:45px">ALTERAR MEUS DADOS PESSOAIS</button>
+                  </div>
+                </div>
+                <p>Utilize esse botão para alterar seus dados pessoais já cadastrados no programa Longevidade</p>
               </div>
             </div>
           </div>

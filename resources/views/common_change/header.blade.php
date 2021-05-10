@@ -2,7 +2,10 @@
 <script src="/js/jquery.mask.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="/js/form_control.js"></script>
 <link rel="stylesheet" type="text/css" href="css/!layout_main.css"/>
-@if(!Auth::check())
+<?php 
+    // echo Auth::check();die;
+?> 
+@if(Auth::check()!=1)
     <div class="header">
         <div class="container">
             <div class="horizon-line"></div>
@@ -137,63 +140,66 @@
         });
         </script>
         @include("commons.terms_lightbox")
-    @else
-        <div class="header_logined" style="position: fixed; width:100%">
-            <div class="container">
-                <div class="row pt-3" style="color:white; font-size:12px;padding-right:0px">
-                <div class="col-md-4" style="padding-right:0">
-                    <div class="row">
-                        <div class="col-md-11" style="padding-right:0">
-                            <i class="fas fa-angle-right" style="font-size:30px">
-                                <span style="font-size:13px; vertical-align:middle"><b>BEM-VINDO(A) - VOCÊ ESTÁ CONECTADO:</b></span>
-                            </i>
-                            <p style="font-size:18px; vertical-align:middle;">
-                                <b>{{Auth::user()->name}}</b>
-                                {{-- <!-- {{$user->LGV_USER_NOME}} --> --}}
-                            </p>
-                        </div>
-                    <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
-                    </div>
-                </div>
-                <div class="col-md-5 mr-3">
-                        <i class="fas fa-angle-right" style="font-size:30px; margin-left:-12px">
-                            <span style="font-size:13px; vertical-align:middle"><b>O QUE VOCÊ DESEJA FAZER AGORA?</b></span>
+@else
+    <div class="header">
+        <div class="horizon-line-logined"></div>
+    </div>    
+    <div class="header_logined" style="position: fixed; width:100%">
+        <div class="container">
+            <div class="row pt-3" style="color:white; font-size:12px;padding-right:0px">
+            <div class="col-md-4" style="padding-right:0">
+                <div class="row">
+                    <div class="col-md-11" style="padding-right:0">
+                        <i class="fas fa-angle-right" style="font-size:30px">
+                            <span style="font-size:13px; vertical-align:middle"><b>BEM-VINDO(A) - VOCÊ ESTÁ CONECTADO:</b></span>
                         </i>
-                        <div class="row header_second">
-                            <div class="col-md-3" style="padding-left:5px; padding-right:5px">
-                                <button class="btn btn-sm btn-primary form-control" style="font-size:13px" id="new_request"><b>NOVO PEDIDO</b></button>
-                            </div>
-                            <div class="col-md-6" style="padding-left:5px; padding-right:5px">
-                                <button class="btn btn-sm btn-primary form-control" style="font-size:13px" id="change_data"><b>ALTERAR DADOS PESSOAIS</b></button>
-                            </div>
-                            <div class="col-md-3" style="padding-left:5px; padding-right:5px">
-                                <button class="btn btn-sm btn-primary form-control" style="font-size:13px" id="logout"><b>SAIR</b></button>
-                            </div>
-                        </div>
-                </div>
+                        <p style="font-size:18px; vertical-align:middle;">
+                            <b>{{Auth::user()->name}}</b>
+                            {{-- <!-- {{$user->LGV_USER_NOME}} --> --}}
+                        </p>
+                    </div>
                 <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
-                <div class="col-md-2 mt-1" style="padding-left:0px;padding-right:0px">
-                        <ul class="mb-0 header_third_part">
-                            <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
-                            <li><a href="http://www.torrent.com.br" target="_blank"><b>VISITE O SITE DA TORRENT</b></a></li>
-                            <li><a href="/nova_requisicao"><b>NOVO PEDIDO</b></a></li>
-                        </ul>
-                </div>
                 </div>
             </div>
+            <div class="col-md-5 mr-3">
+                    <i class="fas fa-angle-right" style="font-size:30px; margin-left:-12px">
+                        <span style="font-size:13px; vertical-align:middle"><b>O QUE VOCÊ DESEJA FAZER AGORA?</b></span>
+                    </i>
+                    <div class="row header_second">
+                        <div class="col-md-3" style="padding-left:5px; padding-right:5px">
+                            <button class="btn btn-sm btn-primary form-control" style="font-size:13px" id="new_request"><b>NOVO PEDIDO</b></button>
+                        </div>
+                        <div class="col-md-6" style="padding-left:5px; padding-right:5px">
+                            <button class="btn btn-sm btn-primary form-control" style="font-size:13px" id="change_data"><b>ALTERAR DADOS PESSOAIS</b></button>
+                        </div>
+                        <div class="col-md-3" style="padding-left:5px; padding-right:5px">
+                            <button class="btn btn-sm btn-primary form-control" style="font-size:13px" id="logout"><b>SAIR</b></button>
+                        </div>
+                    </div>
+            </div>
+            <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
+            <div class="col-md-2 mt-1" style="padding-left:0px;padding-right:0px">
+                    <ul class="mb-0 header_third_part">
+                        <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
+                        <li><a href="http://www.torrent.com.br" target="_blank"><b>VISITE O SITE DA TORRENT</b></a></li>
+                        <li><a href="/nova_requisicao"><b>NOVO PEDIDO</b></a></li>
+                    </ul>
+            </div>
+            </div>
         </div>
-        <script>
-            $(document).ready(function(){
-                $('#new_request').click(function(){
-                    window.location = "/nova_requisicao";
-                });
-                $('#change_data').click(function(){
-                    window.location = "/altera_dados_pessoais";
-                });
-                $('#logout').click(function(){
-                    window.location = "/logout";
-                });
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('#new_request').click(function(){
+                window.location = "/nova_requisicao";
             });
-        </script>
-    @endif
+            $('#change_data').click(function(){
+                window.location = "/altera_dados_pessoais";
+            });
+            $('#logout').click(function(){
+                window.location = "/logout";
+            });
+        });
     </script>
+@endif
+</script>

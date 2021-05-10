@@ -22,7 +22,7 @@
     position: fixed; 
     width:100%;
   }
-  .header .horizon-line{
+  .header .horizon-line,.header .horizon-line-logined{
     display: hidden;
   }
   
@@ -417,6 +417,16 @@
   .register .checkarea{
     width:80%
   }
+  .header_logined{
+    display: block;
+  }
+
+  .horizon_line_logined{
+    display: none;
+  }
+  .menus_mobile_logined .list{
+    display: none;
+  }
   /* responsive css */
   @media screen and (max-width: 768px) {
 
@@ -426,7 +436,7 @@
     #mobile{
       display: block;
     }
-    #desktop{
+    #desktop, .header_logined{
       display: none;
     }
     .header{
@@ -447,6 +457,13 @@
       height: 10px;
       width: 100%;
     }
+    .header .horizon-line-logined{
+      display: block;
+      opacity: 1;
+      background: transparent url(../images/home_longevidade_menu_superior_logined.png) repeat-x left top;
+      height: 10px;
+      width: 100%;
+    }
     .header .container .row.pt-3{
       display: none;
     }
@@ -461,6 +478,14 @@
       width: 100%;
       margin-bottom: 20px;
     }
+    .menus_mobile_logined{
+      display: block;
+      background: #072D46;
+      min-height: 80px;
+      position: absolute;
+      width: 100%;
+      margin-bottom: 20px;
+    }
     .menus_mobile #mobile_logo{
       max-width: 280px;
       background: url(../images/menu_mobile_abre_com_logo.png?crc=406497500) no-repeat;
@@ -468,10 +493,21 @@
       height: 50px;
       z-index: 2;
     }
-    .menus_mobile .list{
+    .menus_mobile_logined #mobile_logo{
+      max-width: 280px;
+      background: url(../images/menu_mobile_abre_com_logo.png?crc=406497500) no-repeat;
+      width: 300px;
+      height: 50px;
+      z-index: 2;
+    }
+    .menus_mobile .list, .menus_mobile_logined .list{
       display: none;
     }
     .menus_mobile.toggle{
+      background: white;
+      z-index: 99;
+    }
+    .menus_mobile_logined.toggle{
       background: white;
       z-index: 99;
     }
@@ -483,7 +519,19 @@
       height: 70px;
       margin-left: 40px;
     }
+    .menus_mobile_logined.toggle #mobile_logo{
+      max-width: 280px;
+      background: url(../images/home-longevidade-log.jpg?crc=259478626) no-repeat;
+      background-size: 100% auto;
+      width: 300px;
+      height: 70px;
+      margin-left: 40px;
+    }
     .menus_mobile.toggle .list{
+      display: block;
+      z-index: 99;
+    }
+    .menus_mobile_logined.toggle .list{
       display: block;
       z-index: 99;
     }
@@ -491,6 +539,13 @@
       color:white
     }
     .menus_mobile.toggle .list-group-item{
+      margin-top:3px;
+      margin-bottom:3px
+    }
+    .menus_mobile_logined.toggle .list a{
+      color:white
+    }
+    .menus_mobile_logined.toggle .list-group-item{
       margin-top:3px;
       margin-bottom:3px
     }
@@ -660,5 +715,36 @@
     }
     .register .no_accept a{
       font-size: 16px!important;
+    }
+    .main_page_logined.container h1{
+      font-size: 32px!important;
+    }
+    .main_page_logined.container p{
+      font-size: 17px!important;
+    }
+    .main_page_logined .gold_border_area, .success_order_ok .gold_border_area{
+      border: 1px solid #BA9000;
+      margin-top: 50px;
+    }
+    .main_page_logined .gold_border_area .small_gold_border_area, .success_order_ok .gold_border_area .small_gold_border_area{
+      border: 1px solid #BA9000;
+      width: 90%;
+      color: #212F63;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:-20px;
+      background-color: white;
+      text-align: center;
+      vertical-align: middle;
+    } 
+    .main_page_logined .gold_border_area .small_gold_border_area h2{
+      font-size: 20px;
+    }
+    .main_page_logined #mobile p{
+      font-size: 15px!important;
+    }
+    .delete_account_content.mb-5 p{
+      text-align: center!important;
+      font-size: 14px!important;
     }
   } 

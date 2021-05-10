@@ -16,7 +16,7 @@
     </div>
     <div class="row" align="left">
       <h4>CLÁUSULA 1 - ACEITE</h4>
-      <p>1.1. Ao se cadastrar no Programa, Você deverá ler o conteúdo deste Regulamento e, se estiver de acordo com as condições apresentadas, manifestar o seu consentimento livre, expresso, informado e inequívoco, por meio da seleção do checkbox correspondente à opção “Conheço o regulamento do Programa e concordo com as cláusulas nele previstas”. 1.2. Você pode retirar o seu consentimento a qualquer momento, por meio do telefone 0800 333 1234. Entretanto, ao revogar o seu consentimento, Você compreende que isso poderá restringir, suspender ou cancelar alguns ou todos os Benefícios do Programa.</p>
+      <p>1.1. Ao se cadastrar no Programa, Você deverá ler o conte údo deste Regulamento e, se estiver de acordo com as condições apresentadas, manifestar o seu consentimento livre, expresso, informado e inequívoco, por meio da seleção do checkbox correspondente à opção “Conheço o regulamento do Programa e concordo com as cláusulas nele previstas”. 1.2. Você pode retirar o seu consentimento a qualquer momento, por meio do telefone 0800 333 1234. Entretanto, ao revogar o seu consentimento, Você compreende que isso poderá restringir, suspender ou cancelar alguns ou todos os Benefícios do Programa.</p>
     </div>
     <div class="row" align="left">
       <h4>CLÁUSULA 2 – DEFINIÇÕES</h4>

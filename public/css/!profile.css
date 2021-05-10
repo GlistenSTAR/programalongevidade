@@ -63,3 +63,20 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .edit_profile .qwr{
+    width: 100%!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .edit_profile.container h2{
+    font-size: 28px;
+  }
+  .edit_profile.container p{
+    font-size: 18px;
+  }
+}

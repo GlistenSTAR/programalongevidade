@@ -6,7 +6,7 @@
     <hr style="border-top:7px solid #2DBAD1; width:70%; margin-bottom:0" align="left">
     <h2 align="left">Alteração de dados pessoais</h2>
     <p align="left">{{explode(" ",Auth::user()->name)[0]}} , você pode alterar somente os campos Nome, E-mail e os telefones fixo e celular. Os demais campos (CPF e Data de Nascimento) são campos utilizados para a sua identificação e não podem ser alterados. Assim que corrigir as informações que deseja, basta clicar em "efetuar alteração". Você receberá um e-mail de confirmação em alguns instantes.</p>
-    <div class="row" style="width:60%">
+    <div class="row qwr" style="width:60%">
       <div class="col-md-6" align="left">
         <label>Name : </label>
         <input 
