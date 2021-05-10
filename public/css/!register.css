@@ -243,4 +243,42 @@
   .register .container .row.qwer p{
     font-size: 17px;
   }
+
+  .container.sucesse_register .row{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .container.sucesse_register .row hr{
+    margin-top: 40px!important;
+  }
+  .container.sucesse_register .row h1{
+    font-size: 28px!important;
+  }
+  .container.sucesse_register .row h2{
+    font-size: 22px!important;
+  }
+  .container.sucesse_register .row p{
+    font-size: 18px!important;
+  }
+  .sucesse_register .gold_border_area .small_gold_border_area{
+    border: 1px solid #BA9000;
+    width: 95%;
+    color: #212F63;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    background-color: white;
+  }
+  .sucesse_register .gold_border_area h2{
+    font-size: 21px;
+  }
+  .sucesse_register .gold_border_area .col-md-9 button{
+    width: auto;
+  }
+  .sucesse_register .wsx .col-md-6 p{
+    font-size: 15px!important;
+  }
+  .sucesse_register .gold_border_area{
+    margin-top:50px
+  }
 }
