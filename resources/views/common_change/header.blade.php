@@ -10,7 +10,7 @@
         <div class="container">
             <div class="horizon-line"></div>
             <div class="row pt-3" style="color:white; font-size:12px;padding-right:0px">
-            <div class="col-md-5" style="padding-right:0">
+            <div class="col-md-5 dividev_two" style="padding-right:0">
                 <div class="row">
                     <div class="col-md-6" style="padding-right:0">
                     <form name="FormCadastro" action="/cadastro_adesao" method="post" id="FormCadastro">
@@ -36,7 +36,7 @@
                 <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
                 </div>
             </div>
-            <div class="col-md-4 mr-3">
+            <div class="col-md-4 mr-3 dividev_two">
                 <form name="FormLogin" action="/api/consultaCadastro" method="post" id="FormLogin">
                     {{ csrf_field() }}
                     <i class="fas fa-angle-right" style="font-size:30px; margin-left:-12px">
@@ -76,8 +76,8 @@
                     </div>
                 </form>
             </div>
-            <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
-            <div class="col-md-2 mt-1" style="padding-left:0px;padding-right:0px">
+            <img class="block hidden_item" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
+            <div class="col-md-2 mt-1 hidden_item" style="padding-left:0px;padding-right:0px">
                     <ul class="mb-0 header_third_part">
                         <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
                         <li><a href="http://www.torrent.com.br" target="_blank"><b>VISITE O SITE DA TORRENT</b></a></li>
@@ -147,8 +147,8 @@
     <div class="header_logined" style="position: fixed; width:100%">
         <div class="container">
             <div class="row pt-3" style="color:white; font-size:12px;padding-right:0px">
-            <div class="col-md-4" style="padding-right:0">
-                <div class="row">
+            <div class="col-md-4 dividev_two" style="padding-right:0">
+                <div class="row decrease_width">
                     <div class="col-md-11" style="padding-right:0">
                         <i class="fas fa-angle-right" style="font-size:30px">
                             <span style="font-size:13px; vertical-align:middle"><b>BEM-VINDO(A) - VOCÊ ESTÁ CONECTADO:</b></span>
@@ -161,7 +161,7 @@
                 <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
                 </div>
             </div>
-            <div class="col-md-5 mr-3">
+            <div class="col-md-5 mr-3 dividev_two">
                     <i class="fas fa-angle-right" style="font-size:30px; margin-left:-12px">
                         <span style="font-size:13px; vertical-align:middle"><b>O QUE VOCÊ DESEJA FAZER AGORA?</b></span>
                     </i>
@@ -177,8 +177,8 @@
                         </div>
                     </div>
             </div>
-            <img class="block" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
-            <div class="col-md-2 mt-1" style="padding-left:0px;padding-right:0px">
+            <img class="block hidden_item" alt="" width="1" height="71" src="images/home_longevidade_divisor_topo.jpg?crc=3889311943" id="u8256_img">
+            <div class="col-md-2 mt-1 hidden_item" style="padding-left:0px;padding-right:0px">
                     <ul class="mb-0 header_third_part">
                         <li><a href="/fale_conosco"><b>FALE CONOSCO</b></a></li>
                         <li><a href="http://www.torrent.com.br" target="_blank"><b>VISITE O SITE DA TORRENT</b></a></li>
