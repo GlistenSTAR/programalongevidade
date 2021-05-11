@@ -7,4 +7,4 @@ echo "!!!";
 
 echo Carbon::now();
 //
-//phpinfo();
+phpinfo();

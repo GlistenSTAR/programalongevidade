@@ -124,7 +124,7 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::faleConoscoOkAction);
-        return view('!_index')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
+        return view('!_index')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados()]);
     }
 
     public function loginAction(Request $poRequest)
@@ -145,14 +145,14 @@ class CommonController extends Controller
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::painelPessoalAction);
-        return view('!_index')->with(['user', $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
+        return view('!_index')->with(['user', $this->paciente, 'laEstados' => $this->fetchAllEstados()]);
     }
 
     public function posCadastroAdesaoOkAction(Request $poRequest)
     {
         $this->checkIfAuthenticated();
         $this->insertRequestToStats($poRequest, RouteIdsEnum::posCadastroAdesaoOKAction);
-        return view('!_sucesse_register')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados(), 'login' => $this->logadoView]);
+        return view('!_sucesse_register')->with(['user' => $this->paciente, 'laEstados' => $this->fetchAllEstados()]);
 
     }
 
@@ -237,12 +237,10 @@ class CommonController extends Controller
 
     private function checkIfAuthenticated()
     {
-
+        // echo Auth::user();die;
         $this->paciente = new Paciente();
         $this->logadoView = "";
-
         if (Auth::check() && !empty(session('paciente'))) {
-
             $this->paciente = session('paciente');
             $this->logadoView = "_logado";
         }

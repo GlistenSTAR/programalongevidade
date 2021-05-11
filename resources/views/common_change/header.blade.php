@@ -3,7 +3,7 @@
 <script type="text/javascript" src="/js/form_control.js"></script>
 <link rel="stylesheet" type="text/css" href="css/!layout_main.css"/>
 <?php 
-    // echo Auth::check();die;
+    // echo Auth::id();die;
 ?> 
 @if(Auth::check()!=1)
     <div class="header">

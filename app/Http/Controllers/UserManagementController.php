@@ -193,7 +193,6 @@ class UserManagementController extends Controller
         $loDate = Carbon::now()->setTimezone(Config::get("app.DEFAULT_TIMEZONE"));
         $lsDate = $loDate->format(Config::get("app.DEFAULT_WSDL_DATE_TIME_FORMAT"));
         $response = new CommonObjectResponse();
-
         if (PacienteModelConverter::requestToModel($poRequest, $loPaciente) && MedicoModelConverter::requestToModel($poRequest, $loMedico)) {
 
             $loPaciente->LGV_USER_LGPD = 1;
