@@ -108,10 +108,10 @@
         <p>Localize a sua cidade pelos seletores abaixo</p>
         <div class="container mb-5">
           <div class="row">
-              <div class="col-md-2" align="right">
+              <div class="col-md-2 col-xs-2" align="right">
                 <img class="block" id="u603_img" alt="" width="86" height="82" data-muse-src="images/home_icone_localizar_farmacia.png?crc=4214829112" src="images/home_icone_localizar_farmacia.png?crc=4214829112" data-nsfw-filter-status="sfw" style="visibility: visible;">
               </div>
-              <div class="col-md-7 form-group" align="left" style="margin-top:auto; margin-bottom:auto">
+              <div class="col-md-7 form-group col-xs-10" align="left" style="margin-top:auto; margin-bottom:auto">
                 <select class="uf" name="uf" id="ufID">
                   <option value="" selected>UF</option>
                   @foreach ($laEstados as $estado)
@@ -125,7 +125,7 @@
                   <option value="" selected>Bairro</option>
                 </select>
               </div>
-              <div class="col-md-3" align="left" style="margin-top:auto; margin-bottom:auto">
+              <div class="col-md-3 col-xs-12" align="left" style="margin-top:auto; margin-bottom:auto">
                 <button class="btn btn-primary form-control form-control-lg" id="find_dragstore" style="width:200px!important;">CONSULTAR AGORA</button>
               </div>
           </div>

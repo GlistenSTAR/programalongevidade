@@ -4,11 +4,11 @@
     <div class="container">
       <div class="row first">
         <div class="col-md-6 col-12 position">
-          <div class="row">
-            <div class="col-md-4" style="margin-top:auto; margin-bottom:auto">
+          <div class="row zxcvb">
+            <div class=" col-sm-12 col-xs-12 col-12 col-md-4" style="margin-top:auto; margin-bottom:auto">
               <img class="block" id="u159_img" alt="" width="189" height="72" src="images/home_logotipo_torrent.png?crc=99701425" data-nsfw-filter-status="sfw" style="visibility: visible;">
             </div>
-            <div class="col-md-8 pl-5">
+            <div class=" pl-5 col-sm-12 col-xs-12 col-12 col-md-8">
               <h4><b>Torrent do Brasil Ltda.</b></h4>
               <span>
                 Avenida Dr. Chucri Zaidan, 1240<br>

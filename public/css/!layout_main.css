@@ -470,6 +470,101 @@
       width: 50%!important;;
     }
   }
+  @media screen and (max-width: 800px) {
+    #FormCadastro span{
+      font-size: 12px!important;
+    }
+    #registeration{
+      font-size: 9px!important;
+      margin-top:8px!important;
+    }
+    .row.header_second{
+      width: 90%;
+    }
+    .col-md-4.mr-3.dividev_two{
+      width: 30%!important;
+    }
+    .row.header_second .col-md-4{
+      width: 33%!important;
+    }
+    .navbar-header .navbar-brand{
+      width: 30%;
+    }
+    .navbar-header .navbar-brand img{
+      width: 220px;
+      height: 50px;
+    }
+    .menus nav{
+      width:100%
+    }
+    .menus .navbar-nav li{
+      font-size: 15px;
+      padding:0px
+    }
+    .menus .collapse.navbar-collapse{
+      width: 60%!important;
+      padding-left:0px;
+      padding-right:0px;
+    }
+    .container>.navbar-header{
+      margin-top:20px
+    }
+    .main_page .carousel.slide.carousel-fade img{
+      width: 730px!important;
+      height: 300px!important;
+    }
+    .register .heading{
+       width: 95%; 
+       margin-left:5%;
+       font-size: 27px;
+    }
+    #u570_img, #u603_img{
+      width: 55px;
+      height: 52px;
+    }
+    #go_register{
+      width: 120%;
+    }
+    #ufID{
+      width:20%
+    }
+    #cidadeId{
+      width: 40%;
+    }
+    #bairroId{
+      width: 40%;
+    }
+    .find_dragstore .col-md-2{
+      width: 20%;
+    }
+    .find_dragstore .col-md-2.col-xs-2{
+      margin-top:auto;
+      margin-bottom: auto;
+    }
+    .find_dragstore .col-md-7 select{
+      width: 100%!important;
+      margin-top:3px;
+      margin-bottom: 3px;
+    }
+    #find_dragstore{
+      width: 200px!important;
+      height: 50px;
+      max-width:165px
+    }
+    .zxcvb{
+      display: flex;
+      flex-direction: column;
+      align-items:center
+    }
+    .zxcvb .col-sm-12.col-xs-12.col-12.col-md-4{
+      width: 600px!important;
+      display: none;
+    }
+    .first .position{
+      /* margin-top:-50px */
+    }
+  }
+
   @media screen and (max-width: 576px) {
     #mobile{
       display: block;
