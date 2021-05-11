@@ -97,7 +97,7 @@
   .product hr{
     border: 65px solid #2DBAD1;
     width: 100%;
-  }
+  } 
   .product .content hr{
     display: none;
   }
@@ -122,5 +122,22 @@
     margin-top: auto;
     margin-bottom: auto;
     padding-top: 10px;
+  }
+
+  .container.success_order_ok hr{
+    margin-top: 40px;
+  }
+  .container.success_order_ok h1{
+    font-size: 35px;
+  }
+  .success_order_ok p{
+    font-size: 20px;
+  }
+  .container.success_order_ok h2{
+    font-size: 26px;
+    margin-top:10px;
+  }
+  .success_order_ok .gold_border_area .small_gold_border_area{
+    margin-top:-40px
   }
 }

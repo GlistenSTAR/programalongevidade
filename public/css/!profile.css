@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
 }
 .saved_profile .gold_border_area p{
   color:#989079;
-  font-size: 12px;
+  font-size: 12px; 
 }
 .saved_profile .gold_border_area .col-md-8 button{
   width: 300px;
@@ -81,5 +81,24 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
   }
   .edit_profile.container{
     margin-top:20px
+  }
+
+  .saved_profile.container  hr{
+    margin-top: 40px;
+  }
+  .saved_profile .gold_border_area .small_gold_border_area{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .saved_profile .gold_border_area .small_gold_border_area h2{
+    font-size: 26px;
+  } 
+  .gold_border_area .wsx{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .gold_border_area .wsx button{ 
+    width: 100%;
   }
 }

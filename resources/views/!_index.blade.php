@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 @section('content')
-  @if(!$login)
+
+  @if(Auth::check()!=1)
     <div class="main_page">
       <div id="myCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
         <div class="carousel-inner" style="margin-top:22px" align="center">
