@@ -90,9 +90,10 @@ h1, h2, h3, h4, h5, h5, h6, div, p, span, input{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -30px;
   }
   .saved_profile .gold_border_area .small_gold_border_area h2{
-    font-size: 26px;
+    font-size: 24px;
   } 
   .gold_border_area .wsx{
     padding-left: 20px;
