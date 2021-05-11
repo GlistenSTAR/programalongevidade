@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="row mt-5 mb-5" align="center" id="mobile">
+      <div class="row mt-5 mb-5 rgm" align="center" id="mobile">
         <div class="col-md-6 mt-5" style="padding-left:0 padding-right:0">
           <div class="row">
             <div class="col-2" align="right">
@@ -52,7 +52,7 @@
               <img class="block" id="u67852_img" alt="" width="40" height="40" data-muse-src="images/alterar_dados_pessoais.jpg?crc=3914973714" src="images/alterar_dados_pessoais.jpg?crc=3914973714">
             </div>
             <div class="col-10" align="left">
-              <button class="btn btn-lg btn-primary mb-3" id="change_data_content">ALTERAR MEUS DADOS PESSOAIS</button>
+              <button class="btn btn-lg btn-primary mb-3 large" id="change_data_content">ALTERAR MEUS DADOS PESSOAIS</button>
             </div>
             <p>Utilize esse botão para alterar seus dados pessoais já cadastrados no programa Longevidade</p>
           </div>

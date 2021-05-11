@@ -137,7 +137,23 @@
     font-size: 26px;
     margin-top:10px;
   }
-  .success_order_ok .gold_border_area .small_gold_border_area{
-    margin-top:-40px
+
+  .success_order_ok .success_order_ok .gold_border_area .small_gold_border_area{
+    margin-top: -10px;
   }
+  
+  .success_order_ok .small_gold_border_area h2{
+    font-size: 22px;
+  }
+  .success_order_ok .rgm.row{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .success_order_ok .rgm.row button{
+    width: 100%;
+  }
+  .success_order_ok .rgm.row button.large{
+    font-size: 14px;
+  }
+
 }

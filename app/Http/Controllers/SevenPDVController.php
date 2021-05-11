@@ -37,7 +37,6 @@ class SevenPDVController extends Controller
         $loServiceUtils = new ServiceUtils($this->serviceLogsCAN, $this->produtoCAN, $this->userManagementCAN);
         $loPaciente = new Paciente();
         $loUser = new User();
-        echo Auth::id();die;
 
         if ($loServiceUtils->loginServiceAction($poRequest, $loPaciente, $loUser)) {
             if (Auth::attempt(['email' => $loPaciente->LGV_USER_EMAIL, 'password' => Config::get("app.SEVEN_DEFAULT_PASSWORD")], true)) {
@@ -53,8 +52,6 @@ class SevenPDVController extends Controller
                 return redirect()->intended();
 
             }
-
-
         } else {
             return redirect()->action('CommonController@indexAction', ['error' => 'true']);
         }
